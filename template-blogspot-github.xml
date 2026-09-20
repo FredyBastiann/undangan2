@@ -2,6 +2,18 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+<script>
+/* Hilangkan parameter ?m=1 / ?m=0 Blogger dari URL secara instan */
+(function() {
+  try {
+    var url = window.location.toString();
+    if (url.indexOf('m=1') !== -1 || url.indexOf('m=0') !== -1) {
+      var cleanUrl = url.replace(/([?&])m=[01](&|$)/g, '$1').replace(/[?&]$/, '');
+      window.history.replaceState({}, document.title, cleanUrl);
+    }
+  } catch(e) {}
+})();
+</script>
 	<meta charset="UTF-8">
 		        <style type="text/css">
             .wdk-comment-text img {
@@ -37,13 +49,12 @@
 	<meta name="twitter:data1" content="AdminHiialfi" />
 	<meta name="twitter:label2" content="Estimasi waktu membaca" />
 	<meta name="twitter:data2" content="4 menit" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#article","isPartOf":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/"},"author":{"name":"AdminHiialfi","@id":"https:\/\/hiialfivitation.com\/#\/schema\/person\/329e7449691d60285983c615e39b3725"},"headline":"Fredy &amp; Olif","datePublished":"2025-05-06T14:22:05+00:00","dateModified":"2026-03-07T03:24:22+00:00","mainEntityOfPage":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/"},"wordCount":368,"commentCount":1,"image":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#primaryimage"},"thumbnailUrl":"https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg","articleSection":["Uncategorized"],"inLanguage":"id","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/hiialfivitation.com\/muslim-coksu\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/","url":"https:\/\/hiialfivitation.com\/muslim-coksu\/","name":"The Wedding of Fredy &amp; Olif","isPartOf":{"@id":"https:\/\/hiialfivitation.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#primaryimage"},"image":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#primaryimage"},"thumbnailUrl":"https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg","datePublished":"2025-05-06T14:22:05+00:00","dateModified":"2026-03-07T03:24:22+00:00","author":{"@id":"https:\/\/hiialfivitation.com\/#\/schema\/person\/329e7449691d60285983c615e39b3725"},"description":"Undangan Digital Viral, Selalu Up to Date, Murah, Terpercaya, dan Pasti Puas","breadcrumb":{"@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#breadcrumb"},"inLanguage":"id","potentialAction":[{"@type":"ReadAction","target":["https:\/\/hiialfivitation.com\/muslim-coksu\/"]}]},{"@type":"ImageObject","inLanguage":"id","@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#primaryimage","url":"https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg","contentUrl":"https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg","width":1024,"height":1536},{"@type":"BreadcrumbList","@id":"https:\/\/hiialfivitation.com\/muslim-coksu\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/hiialfivitation.com\/"},{"@type":"ListItem","position":2,"name":"Fredy &amp; Olif"}]},{"@type":"WebSite","@id":"https:\/\/hiialfivitation.com\/#website","url":"https:\/\/hiialfivitation.com\/","name":"Hiialfi Invitation","description":"Undangan Digital Modern","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/hiialfivitation.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"id"},{"@type":"Person","@id":"https:\/\/hiialfivitation.com\/#\/schema\/person\/329e7449691d60285983c615e39b3725","name":"AdminHiialfi","image":{"@type":"ImageObject","inLanguage":"id","@id":"https:\/\/secure.gravatar.com\/avatar\/acfc573c17449bc63c5a43bbb81e6d247abf113a7cb7f6af4771fb7d1e9cde3e?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/acfc573c17449bc63c5a43bbb81e6d247abf113a7cb7f6af4771fb7d1e9cde3e?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/acfc573c17449bc63c5a43bbb81e6d247abf113a7cb7f6af4771fb7d1e9cde3e?s=96&d=mm&r=g","caption":"AdminHiialfi"},"sameAs":["https:\/\/hiialfivitation.com"],"url":"https:\/\/hiialfivitation.com\/author\/adminhiialfi\/"}]}</script>
+	
 	<!-- / Yoast SEO Premium plugin. -->
 
 
 <link rel='dns-prefetch' href='//unpkg.com' />
 <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
-<link rel='dns-prefetch' href='//www.googletagmanager.com' />
 <link rel='dns-prefetch' href='//use.fontawesome.com' />
 <link rel="alternate" type="application/rss+xml" title="Hiialfi Invitation &raquo; Feed" href="https://hiialfivitation.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Hiialfi Invitation &raquo; Umpan Komentar" href="https://hiialfivitation.com/comments/feed/" />
@@ -217,22 +228,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <script id="jquery-core-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.min.js"></script>
 <script id="jquery-migrate-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery-migrate.min.js"></script>
 
-<!-- Potongan tag Google (gtag.js) ditambahkan oleh Site Kit -->
-<!-- Snippet Google Analytics telah ditambahkan oleh Site Kit -->
-<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-PJ7MG6Z7" async></script>
-<script id="google_gtagjs-js-after">
-window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-gtag("set","linker",{"domains":["hiialfivitation.com"]});
-gtag("js", new Date());
-gtag("set", "developer_id.dZTNiMT", true);
-gtag("config", "GT-PJ7MG6Z7");
- window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
-//# sourceURL=google_gtagjs-js-after
-</script>
-<link rel="https://api.w.org/" href="https://hiialfivitation.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://hiialfivitation.com/wp-json/wp/v2/posts/3460" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hiialfivitation.com/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 7.1.1" />
-<link rel='shortlink' href='https://hiialfivitation.com/?p=3460' />
-<meta name="generator" content="Site Kit by Google 1.181.0" /><meta name="generator" content="Elementor 4.1.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<meta name="generator" content="Elementor 4.1.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 			<style>
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -506,7 +502,7 @@ gtag("config", "GT-PJ7MG6Z7");
 				</div>
 				<div class="elementor-element elementor-element-2b433fb0 animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="2b433fb0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="1024" height="1536" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg" class="attachment-full size-full wp-image-3466" alt="" srcset="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg 1024w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-200x300.jpeg 200w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-683x1024.jpeg 683w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-768x1152.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img decoding="async" loading="lazy" width="1024" height="1536" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg" class="attachment-full size-full wp-image-3466" alt="" srcset="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg 1024w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-200x300.jpeg 200w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-683x1024.jpeg 683w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-768x1152.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-63a0356f animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="63a0356f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -752,7 +748,7 @@ Ds. Dukohkidul RT 01/RW 01, Kec. Ngasem, Kab. Bojonegoro</p>				</div>
 				<div class="elementor-widget-container">
 							
 		<div class="elementor-image img">
-							<img decoding="async" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/BANK-JAGO.png" alt="Bank Jago" style="max-height: 52px; width: auto; margin: 10px auto 12px auto; display: block;">
+							<img decoding="async" loading="lazy" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/BANK-JAGO.png" alt="Bank Jago" style="max-height: 52px; width: auto; margin: 10px auto 12px auto; display: block;">
 					</div>
 
 		<div class="head-title">Bank Jago - Siti Mukholifah</div>
@@ -1021,7 +1017,7 @@ Ds. Dukohkidul RT 01/RW 01, Kec. Ngasem, Kab. Bojonegoro</p>				</div>
 
 				
 
-				<audio id="song" loop preload="auto">
+				<audio id="song" loop preload="none">
 			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.mp3" type="audio/mpeg">
 			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.m4a" type="audio/mp4">
 			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.webm" type="audio/webm">
