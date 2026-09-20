@@ -316,11 +316,7 @@
   </div>
 
   <div class="card">
-    <div class="form-group">
-      <label for="baseUrl">Alamat Website Undangan</label>
-      <input type="url" id="baseUrl" value="https://olifsddyygg.blogspot.com/" placeholder="https://olifsddyygg.blogspot.com/">
-      <div class="helper-text">Alamat website Blogspot undangan Anda</div>
-    </div>
+
 
     <div class="form-group">
       <label for="guestName">Nama Tamu Undangan</label>
@@ -340,7 +336,7 @@
       <div class="result-header">
         <span class="result-title">🔗 Link Khusus Tamu</span>
       </div>
-      <div class="url-box" id="resultUrl">https://olifsddyygg.blogspot.com/?to=Tamu-Undangan</div>
+      <div class="url-box" id="resultUrl">https://mukholifah.fredybastian.com/?to=Tamu-Undangan</div>
 
       <div class="result-header">
         <span class="result-title">💬 Teks Pesan WhatsApp Siap Kirim</span>
@@ -377,15 +373,14 @@
 <div id="toast" class="toast">Berhasil disalin!</div>
 
 <script>
-  const baseUrlInput = document.getElementById('baseUrl');
+  const BASE_URL = 'https://mukholifah.fredybastian.com/';
   const guestNameInput = document.getElementById('guestName');
   const resultUrlEl = document.getElementById('resultUrl');
   const resultTextEl = document.getElementById('resultText');
   const toastEl = document.getElementById('toast');
 
   function updatePreview() {
-    let base = baseUrlInput.value.trim();
-    if (!base.endsWith('/')) base += '/';
+    let base = BASE_URL;
     
     let rawName = guestNameInput.value.trim();
     let displayName = rawName || 'Tamu Undangan';
@@ -433,7 +428,7 @@ Kami yang berbahagia,
 
   // Event Listeners
   guestNameInput.addEventListener('input', updatePreview);
-  baseUrlInput.addEventListener('input', updatePreview);
+  
 
   function addPrefix(prefix) {
     if (!guestNameInput.value.startsWith(prefix)) {
@@ -484,8 +479,7 @@ Kami yang berbahagia,
   }
 
   function generateBulk() {
-    let base = baseUrlInput.value.trim();
-    if (!base.endsWith('/')) base += '/';
+    let base = BASE_URL;
     
     let text = document.getElementById('bulkNames').value;
     let lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
