@@ -1455,19 +1455,30 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 
 <script>
 /* ================================================
-   SISTEM UNDANGAN PERSONAL
-   Cara pakai: tambahkan ?to=Nama-Tamu di akhir URL
-   Contoh    : olifsddyygg.blogspot.com/?to=Jono-Subarjo
-               olifsddyygg.blogspot.com/?to=Budi+Santoso
+   SISTEM UNDANGAN PERSONAL (Fredy & Olif)
    ================================================ */
 (function () {
   'use strict';
 
   function getNamaTamu() {
     try {
-      var params = new URLSearchParams(window.location.search);
-      return params.get('to') || params.get('kepada') || params.get('nama') || null;
-    } catch (e) { return null; }
+      var search = window.location.search || '';
+      var hash = window.location.hash || '';
+      var params = new URLSearchParams(search);
+      var raw = params.get('to') || params.get('kepada') || params.get('nama') || params.get('u');
+      
+      // Jika pakai format hash misal #Jono-Subarjo
+      if (!raw && hash && hash.length > 1 && hash.indexOf('/') === -1 && hash.indexOf('=') === -1) {
+        raw = hash.substring(1);
+      }
+      
+      if (!raw) return null;
+      
+      var decoded = decodeURIComponent(raw.replace(/\+/g, ' '));
+      return decoded.replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+    } catch (e) {
+      return null;
+    }
   }
 
   function toTitleCase(str) {
@@ -1480,52 +1491,69 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     var raw = getNamaTamu();
     if (!raw) return;
 
-    var nama = toTitleCase(raw.replace(/[-_+]/g, ' ').replace(/\s+/g, ' ').trim());
+    var nama = toTitleCase(raw);
     if (!nama) return;
 
     var injected = false;
 
-    /* ── 1. WeddingKit cover card: div.wdk-name.namatamu ─────────── */
-    document.querySelectorAll('.wdk-name, .namatamu, .wdk-name.namatamu').forEach(function (el) {
+    // 1. WeddingKit cover card: .wdk-name, .namatamu, dan div setelah .wdk-dear
+    var wdkTargets = document.querySelectorAll('.wdk-name, .namatamu, .wdk-name.namatamu');
+    wdkTargets.forEach(function (el) {
       el.textContent = nama;
       el.style.display = 'block';
+      el.style.visibility = 'visible';
+      el.style.opacity = '1';
       injected = true;
     });
 
-    /* ── 2. Elementor heading: elemen berteks "Tamu Undangan" ──────── */
-    var selectors = [
-      'p.elementor-heading-title',
-      'span.elementor-heading-title',
-      'h1.elementor-heading-title',
-      'h2.elementor-heading-title',
-      'h3.elementor-heading-title'
-    ];
-    selectors.forEach(function (sel) {
-      document.querySelectorAll(sel).forEach(function (el) {
-        if (el.textContent.trim() === 'Tamu Undangan') {
-          el.textContent = nama;
-          injected = true;
-        }
-      });
+    // Cari juga elemen tepat setelah .wdk-dear jika class berbeda
+    document.querySelectorAll('.wdk-dear').forEach(function(el) {
+      var next = el.nextElementSibling;
+      if (next && (next.classList.contains('wdk-name') || next.classList.contains('namatamu') || next.textContent.trim() === '' || next.textContent.trim() === 'Tamu Undangan')) {
+        next.textContent = nama;
+        next.style.display = 'block';
+        next.style.visibility = 'visible';
+        next.style.opacity = '1';
+        injected = true;
+      }
     });
 
-    /* ── 3. Update judul tab browser ─────────────────────────────── */
+    // 2. Elementor heading titles
+    var headings = document.querySelectorAll('.elementor-heading-title');
+    headings.forEach(function (el) {
+      var txt = el.textContent.trim();
+      if (txt === 'Tamu Undangan' || txt === '' && el.closest('.elementor-element-585a4f47')) {
+        el.textContent = nama;
+        injected = true;
+      }
+    });
+
+    // 3. Ubah judul tab browser
     if (injected) {
-      document.title = 'Undangan untuk ' + nama;
+      document.title = 'Undangan untuk ' + nama + ' | Fredy & Olif';
     }
   }
 
-  /* Jalankan saat DOM ready */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', injectNama);
   } else {
     injectNama();
   }
-  /* Jalankan ulang setelah plugin WeddingKit/Elementor selesai render */
-  setTimeout(injectNama, 300);
-  setTimeout(injectNama, 800);
-  setTimeout(injectNama, 1500);
-  setTimeout(injectNama, 3000);
+
+  // Observer agar jika Elementor me-render ulang / replace DOM, nama tetap masuk
+  try {
+    var observer = new MutationObserver(function() {
+      injectNama();
+    });
+    observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
+    // Hentikan observer setelah 6 detik agar hemat baterai
+    setTimeout(function() { observer.disconnect(); }, 6000);
+  } catch(e) {}
+
+  setTimeout(injectNama, 200);
+  setTimeout(injectNama, 600);
+  setTimeout(injectNama, 1200);
+  setTimeout(injectNama, 2500);
 })();
 </script>
 
