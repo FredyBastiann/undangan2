@@ -228,7 +228,7 @@ body{margin:0!important;padding:0!important}
         <div class='hero-text-content'>
           <h2 class='font-heading-script animated-slow elementor-invisible'>The Wedding of</h2>
           <h1 class='font-heading-script animated-slow elementor-invisible'>Fredy Bastian Nugroho &amp; Siti Mukholifah</h1>
-          <h2 class='heading-fadeInUp date-text'>Minggu, 24 Januari 2024</h2>
+          <h2 class='heading-fadeInUp date-text'>Rabu, 28 September 2026</h2>
         </div>
       </div>
     </div>
@@ -337,19 +337,19 @@ body{margin:0!important;padding:0!important}
       <!-- Akad Nikah -->
       <div class='wedding-event-col'>
         <h2 class='event-title'>Akad Nikah</h2>
-        <p class='event-date'>Minggu, 24 Januari 2024</p>
+        <p class='event-date'>Rabu, 28 September 2026</p>
         <p class='event-time'>Pukul : 08.00 - 10.00 WIB</p>
         <div class='event-map-icon'><i class='fas fa-map-marker-alt'></i></div>
-        <p class='event-location'>Lokasi Acara :<br>Ballroom Mesjid Makmur<br>Jl. Lorem Ipsum N0.129, Jakarta</p>
+        <p class='event-location'>Lokasi Acara :<br>Lokasi Acara (lihat Maps)<br>Disesuaikan dengan Maps</p>
         <a href='#' class='event-btn'>Lihat Lokasi</a>
       </div>
       <!-- Resepsi -->
       <div class='wedding-event-col'>
         <h2 class='event-title'>Resepsi</h2>
-        <p class='event-date'>Minggu, 24 Januari 2024</p>
+        <p class='event-date'>Rabu, 28 September 2026</p>
         <p class='event-time'>Pukul : 13:00 WIB</p>
         <div class='event-map-icon'><i class='fas fa-map-marker-alt'></i></div>
-        <p class='event-location'>Lokasi Acara :<br>Ballroom Mesjid Makmur<br>Jl. Lorem Ipsum N0.129, Jakarta</p>
+        <p class='event-location'>Lokasi Acara :<br>Lokasi Acara (lihat Maps)<br>Disesuaikan dengan Maps</p>
         <a href='#' class='event-btn'>Lihat Lokasi</a>
       </div>
     </div>
@@ -373,8 +373,16 @@ body{margin:0!important;padding:0!important}
       <p class='love-story-quote'>&quot;tiada hubungan terindah seorang laki-laki dan wanita kecuali hubungan dalam pernikahan.&quot;</p>
     </div>
     <div class='love-story-item'>
+      <p class='love-story-date'>Gift / Rekening</p>
+      <p class='love-story-quote'><b>BRI - Siti Mukholifah:</b> 0172 0107 8513 501<br><b>Jago - Fredy Bastian Nugroho:</b> XXXXXXXXXXXXXXXXXXXXXXX</p>
+    </div>
+    <div class='love-story-item'>
       <p class='love-story-date'>Desember 2023</p>
       <p class='love-story-quote'>&quot;tiada hubungan terindah seorang laki-laki dan wanita kecuali hubungan dalam pernikahan.&quot;</p>
+    </div>
+    <div class='love-story-item'>
+      <p class='love-story-date'>Gift / Rekening</p>
+      <p class='love-story-quote'><b>BRI - Siti Mukholifah:</b> 0172 0107 8513 501<br><b>Jago - Fredy Bastian Nugroho:</b> XXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
   </div>
 </section>
@@ -386,20 +394,20 @@ body{margin:0!important;padding:0!important}
     <p class='wedding-gift-desc'>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi gift</p>
     <div class='gift-grid'>
       <div class='gift-card'>
-        <div class='gift-bank-logo'>BCA</div>
+        <div class='gift-bank-logo'>BRI</div>
         <div class='gift-account-name'>Putra Pratama</div>
-        <div class='gift-account-number' onclick='copyText(this)'>1234567890</div>
+        <div class='gift-account-number' onclick='copyText(this)'>0172 0107 8513 501</div>
         <br>
         <a class='gift-copy-btn' onclick='copyText(this)'>Salin No Rekening</a>
-        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6281234567890&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
+        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6280172 0107 8513 501&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
       </div>
       <div class='gift-card'>
-        <div class='gift-bank-logo'>BNI</div>
+        <div class='gift-bank-logo'>Jago</div>
         <div class='gift-account-name'>Putra Pratama</div>
-        <div class='gift-account-number' onclick='copyText(this)'>0987654321</div>
+        <div class='gift-account-number' onclick='copyText(this)'>XXXXXXXXXXXXXXXXXXXXXXX</div>
         <br>
         <a class='gift-copy-btn' onclick='copyText(this)'>Salin No Rekening</a>
-        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6281234567890&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
+        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6280172 0107 8513 501&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
       </div>
     </div>
   </div>
