@@ -1,0 +1,10 @@
+DOWNLOAD SUMMARY
+============================================================
+Total links: 78
+Success: 72
+Failed: 0
+Skipped: 6
+============================================================
+
+FAILED LINKS:
+  https://hiialfivitation.com/wp-content/uploads/useanyfont/uaf.css -> C:\Users\Administrator\Documents\undangan\downloaded-assets\fonts2\uaf.css

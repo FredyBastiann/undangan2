@@ -1,0 +1,110 @@
+EXTERNAL CSS / STYLESHEET LINKS
+==============================
+
+[PLUGIN & THEME]
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/public/css/modules/bdt-uikit.css
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/public/css/modules/ep-helper.css
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes/css/style.css
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/public/css/widgets.css
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/css/exad-styles.min.css
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//css/cui_style.css
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/css/new-icon.min.css
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/css/wdp.css
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/css/guest-book.css
+https://hiialfivitation.com/wp-content/themes/hello-elementor/assets/css/reset.css
+https://hiialfivitation.com/wp-content/themes/hello-elementor/assets/css/theme.css
+https://hiialfivitation.com/wp-content/themes/hello-elementor/assets/css/header-footer.css
+
+[ELEMENTOR]
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/css/frontend.min.css
+https://hiialfivitation.com/wp-content/uploads/elementor/css/post-5.css
+https://hiialfivitation.com/wp-content/uploads/elementor/css/post-3460.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css
+
+[FONT AWESOME & FONTS]
+https://use.fontawesome.com/releases/v6.7.2/css/all.css
+https://use.fontawesome.com/releases/v6.7.2/css/v4-shims.css
+https://hiialfivitation.com/wp-content/uploads/font-awesome/v6.7.2/css/svg-with-js.css
+https://hiialfivitation.com/wp-content/uploads/useanyfont/uaf.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/pinyonscript.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/poppins.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/combo.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/charm.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/montserrat.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/playfairdisplay.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/comicneue.css
+https://hiialfivitation.com/wp-content/uploads/elementor/google-fonts/css/englebert.css
+
+[GOOGLE FONTS DIRECT]
+https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Infant:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600;700&family=Combo&display=swap
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+
+
+EXTERNAL JAVASCRIPT LINKS
+=========================
+
+[CORE WORDPRESS]
+https://hiialfivitation.com/wp-includes/js/jquery/jquery.min.js
+https://hiialfivitation.com/wp-includes/js/jquery/jquery-migrate.min.js
+https://hiialfivitation.com/wp-includes/js/dist/hooks.min.js
+https://hiialfivitation.com/wp-includes/js/dist/i18n.min.js
+https://hiialfivitation.com/wp-includes/js/dist/vendor/react.min.js
+https://hiialfivitation.com/wp-includes/js/dist/vendor/react-dom.min.js
+https://hiialfivitation.com/wp-includes/js/dist/escape-html.min.js
+https://hiialfivitation.com/wp-includes/js/dist/element.min.js
+https://hiialfivitation.com/wp-includes/js/jquery/ui/core.min.js
+
+[GOOGLE ANALYTICS]
+https://www.googletagmanager.com/gtag/js?id=GT-PJ7MG6Z7
+
+[ELEMENTOR]
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/js/frontend.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js
+https://hiialfivitation.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js
+
+[WEDDINGKIT PRO]
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/public/js/modules/bdt-uikit.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/public/js/script.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes/js/script.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes//js/libs/jquery.jPages.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes//js/libs/jquery.textareaCounter.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes//js/libs/jquery.placeholder.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingkit-pro/includes/wishes//js/libs/autosize.min.js
+
+[WEDDINGPRESS]
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/qr-code.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/exad-scripts.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/wdp.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/guest-form.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/assets/js/license.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/cui_script.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.jPages.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.textareaCounter.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.placeholder.min.js
+https://hiialfivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/autosize.min.js
+
+[PAGE SCROLL & LIBRARIES]
+https://hiialfivitation.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js
+https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js
+https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js
+
+[HELLO ELEMENTOR]
+https://hiialfivitation.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js
+
+
+TOTAL: ~80+ external files (40+ CSS, 40+ JS)
+SEMUA LINK DI ATAS MERUJUK KE SERVER hiialfivitation.com

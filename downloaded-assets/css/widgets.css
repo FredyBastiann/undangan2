@@ -1,0 +1,254 @@
+.modalx{position:fixed;z-index:2000;width:100%;height:100%;top:0;left:0;background-color:transparent;background-size:cover;background-position:center;background-repeat:no-repeat;transform:translate3d(0,0,0);opacity:1;will-change:transform,opacity;backface-visibility:hidden;transition:transform var(--wdk-open-duration,650ms) cubic-bezier(.22,.61,.36,1),opacity var(--wdk-open-duration,650ms) ease}.overlayy{background-color:#000;position:relative;width:100%;height:100%;z-index:2001;top:0;opacity:.7;left:0}.content-modalx{background-color:transparent;position:fixed;width:100%;height:100%;z-index:2002;top:10px;color:#fff;left:0}.info_modalx{width:100%;display:flex;height:100%;flex-direction:column;justify-content:center}.info_modalx>div{width:auto;text-align:center;height:auto}.removeModals{opacity:0;pointer-events:none}.modalx.wdk-open-slide_up.removeModals{transform:translate3d(0,-105%,0)}.modalx.wdk-open-slide_down.removeModals{transform:translate3d(0,105%,0)}.modalx.wdk-open-slide_left.removeModals{transform:translate3d(-105%,0,0)}.modalx.wdk-open-slide_right.removeModals{transform:translate3d(105%,0,0)}.modalx.wdk-open-zoom_out.removeModals{transform:scale(.92)}.modalx.wdk-open-fade.removeModals{transform:translate3d(0,0,0)}.tk-text{color:#fff;font-size:18px;text-align:center}.tk-dear{color:#fff;font-size:18px;text-align:center}.tk-name{font-weight:600;color:#fff;font-size:25px}
+.modalx .wdk-txt-the-wedding{font-size:clamp(24px,2.1vw,36px);line-height:1.3;font-weight:400;letter-spacing:.01em}
+.modalx .wdk-mempelai{font-size:clamp(44px,5.2vw,78px);line-height:1.1;font-weight:500;letter-spacing:.01em}
+.modalx .wdk-tgl{font-size:clamp(24px,2vw,34px);line-height:1.35;font-weight:400}
+.modalx .wdk-dear{font-size:clamp(24px,2vw,34px);line-height:1.35;font-weight:400}
+.modalx .wdk-name{font-size:clamp(24px,2vw,34px);line-height:1.35;font-weight:500}
+.modalx .wdk-text{font-size:clamp(20px,1.7vw,28px);line-height:1.55;font-weight:400;max-width:90%;margin-left:auto;margin-right:auto}
+.modalx .wdk-keterangan{font-size:clamp(18px,1.45vw,24px);line-height:1.5;font-weight:400}
+.modalx .wdk-button-wrapper .elementor-button{font-size:clamp(14px,1.2vw,16px);line-height:1.5;padding:12px 24px}
+@media (max-width:767px){.modalx .wdk-txt-the-wedding{font-size:28px}.modalx .wdk-mempelai{font-size:52px}.modalx .wdk-tgl,.modalx .wdk-dear,.modalx .wdk-name{font-size:28px}.modalx .wdk-text{font-size:22px;max-width:94%}.modalx .wdk-keterangan{font-size:18px}.modalx .wdk-button-wrapper .elementor-button{font-size:15px}}
+
+/* WeddingKit RSVP Dashboard - Shadcn Style Refined */
+.wk-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.wk-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.wk-table {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    text-align: left;
+    font-size: 14px;
+    border: none !important;
+}
+
+.wk-table thead {
+    background: #f9fafb !important;
+}
+
+.wk-table th {
+    font-weight: 500 !important;
+    color: #6b7280 !important;
+    padding: 16px !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    background: #f9fafb !important;
+}
+
+.wk-table tbody tr {
+    border-bottom: 1px solid #f1f5f9 !important;
+    transition: background-color 0.2s ease;
+}
+
+.wk-table tbody tr:last-child {
+    border-bottom: none !important;
+}
+
+.wk-table tbody tr:hover {
+    background: #f9fafb !important;
+}
+
+.wk-table td {
+    padding: 16px !important;
+    color: #374151 !important;
+    vertical-align: middle !important;
+    border: none !important;
+}
+
+/* Badges */
+.wk-badge {
+    padding: 4px 10px !important;
+    border-radius: 999px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    display: inline-flex !important;
+    align-items: center;
+}
+
+.wk-badge-hadir {
+    background: #dcfce7 !important;
+    color: #166534 !important;
+}
+
+.wk-badge-tidak-hadir {
+    background: #fee2e2 !important;
+    color: #991b1b !important;
+}
+
+.wk-badge-masih-ragu {
+    background: #fef9c3 !important;
+    color: #92400e !important;
+}
+
+/* Dashboard Stats Grid */
+.wk-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.wk-stat-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.wk-stat-label {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.rsvp-dashboard-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+/* Toolbar */
+.wk-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.wk-toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Inputs & Buttons */
+.wk-input, .wk-select {
+    border: 1px solid #e5e7eb !important;
+    border-radius: 8px !important;
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+    background: #fff !important;
+    outline: none !important;
+    transition: border-color 0.2s;
+    height: auto !important;
+}
+
+.wk-input:focus, .wk-select:focus {
+    border-color: #2563eb !important;
+}
+
+.wk-btn-export {
+    background: #2563eb !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 10px 16px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    border: none !important;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none !important;
+}
+
+.wk-btn-export:hover {
+    background: #1d4ed8 !important;
+}
+
+.wk-search-input {
+    min-width: 280px;
+}
+
+/* Pagination */
+.wk-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid #e5e7eb;
+    background: #fff;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.wk-pagination-info {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.wk-pagination-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.wk-btn-page {
+    border: 1px solid #e5e7eb !important;
+    background: #fff !important;
+    color: #374151 !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wk-btn-page:hover:not(:disabled):not(.active) {
+    background: #f9fafb !important;
+    border-color: #d1d5db !important;
+}
+
+.wk-btn-page.active {
+    background: #111827 !important;
+    color: #ffffff !important;
+    border-color: #111827 !important;
+}
+
+.wk-btn-page:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+    .wk-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .wk-search-input {
+        min-width: 100%;
+    }
+    .wk-toolbar-right {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .wk-pagination {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

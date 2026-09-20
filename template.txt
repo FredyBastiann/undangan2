@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:templateVersion='1.3.0' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0, viewport-fit=cover' name='viewport'/>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/> - Undangan Digital</title>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<meta content='#6EC1E4' name='theme-color'/>
+<link href='https://fonts.googleapis.com/css2?family=Pinyon+Script&amp;family=Cormorant+Infant:ital,wght@0,400;0,600;1,400&amp;family=Poppins:wght@300;400;500;600;700&amp;family=Combo&amp;display=swap' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' rel='stylesheet'/>
+
+<style type='text/css'>
+/* <![CDATA[ */
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Poppins',sans-serif;font-weight:400;color:#7A7A7A;background-color:#fafafa;overflow-x:hidden}
+/* FONTS */
+.font-heading-script{font-family:'Pinyon Script',serif;font-weight:600}
+.font-islamic{font-family:'Cormorant Infant',serif;font-style:italic}
+.font-combo{font-family:'Combo',cursive}
+/* ANIMATIONS */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeInDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes zoomIn{from{opacity:0;transform:scale(0.8)}to{opacity:1;transform:scale(1)}}
+@keyframes fadeInLeft{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}
+.animated-slow{animation-duration:1s;animation-fill-mode:both}
+.elementor-invisible{visibility:hidden}
+/* HERO */
+.hero-section{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f5f0eb 0%,#e8e0d8 50%,#f0ebe6 100%);padding:40px 20px}
+.hero-container{display:flex;max-width:1400px;width:100%;gap:0;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.1)}
+.hero-left{flex:1;display:flex;align-items:center;justify-content:center;padding:60px 50px;min-height:500px;background:linear-gradient(180deg,#fff 0%,#faf7f4 100%)}
+.hero-content{text-align:center;max-width:450px}
+.hero-content h2.font-heading-script{font-size:2.2rem;color:#6EC1E4;margin-bottom:10px}
+.hero-content h1.font-heading-script{font-size:3.5rem;color:#333;margin-bottom:25px;line-height:1.2}
+.quote-text{font-family:'Cormorant Infant',serif;font-style:italic;font-size:1.1rem;color:#54595F;line-height:1.8;margin-bottom:30px}
+.guest-label{font-family:'Poppins',sans-serif;font-size:1rem;color:#7A7A7A;margin-bottom:5px}
+.guest-label-highlight{font-family:'Combo',cursive;font-size:1.8rem;color:#6EC1E4;margin-bottom:10px}
+.hero-right{flex:1;position:relative;min-height:500px}
+.hero-image{width:100%;height:100%;background-size:cover;background-position:center;background-repeat:no-repeat;position:relative;display:flex;align-items:center;justify-content:center}
+.hero-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3)}
+.hero-text-content{position:relative;z-index:2;text-align:center;color:#fff;padding:40px}
+.hero-text-content h2.font-heading-script{font-size:2rem;margin-bottom:10px}
+.hero-text-content h1.font-heading-script{font-size:3rem;margin-bottom:15px}
+.date-text{font-size:1.8rem;color:#FFBC7D}
+/* LOWER SECTION */
+.lower-section{padding:80px 20px;background:#fff}
+.lower-container{max-width:1100px;margin:0 auto;text-align:center}
+.letters-row{display:flex;justify-content:center;gap:30px;margin-bottom:40px}
+.letter-box{width:150px;height:150px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:linear-gradient(135deg,#6EC1E4,#61CE70);box-shadow:0 10px 30px rgba(110,193,228,.3)}
+.letter-box h1.font-combo{font-size:6rem;color:#fff}
+.quran-text{max-width:800px;margin:0 auto}
+.quran-text h2{font-family:'Cormorant Infant',serif;font-style:italic;font-size:1.4rem;color:#54595F;line-height:1.8;margin-bottom:15px}
+.quran-ref{font-family:'Poppins',sans-serif;font-size:1.1rem;color:#6EC1E4;font-weight:600}
+/* BRIDE & GROOM */
+.bride-groom-section{padding:80px 20px;position:relative;background:linear-gradient(180deg,#fafafa 0%,#f0ebe6 100%);overflow:hidden}
+.container{max-width:1140px;margin:0 auto;position:relative}
+.section-label{text-align:center;margin-bottom:20px}
+.section-label span{font-family:'Pinyon Script',serif;font-size:2.5rem;color:#333}
+.bismillah-text{text-align:center;margin-bottom:20px}
+.bismillah-text span.font-combo{font-size:1.8rem;color:#6EC1E4}
+.desc-text{text-align:center;font-family:'Poppins',sans-serif;font-size:1rem;color:#7A7A7A;margin-bottom:50px;max-width:700px;margin-left:auto;margin-right:auto}
+.couple-container{display:flex;justify-content:center;align-items:flex-start;gap:60px;flex-wrap:wrap}
+.couple-card{text-align:center;background:#fff;border-radius:20px;padding:40px 30px;box-shadow:0 10px 40px rgba(0,0,0,.08);width:300px;transition:transform .3s ease,box-shadow .3s ease}
+.couple-card:hover{transform:translateY(-10px);box-shadow:0 20px 60px rgba(0,0,0,.12)}
+.couple-image-wrapper{width:180px;height:180px;border-radius:50%;overflow:hidden;margin:0 auto 25px;border:4px solid #6EC1E4;box-shadow:0 5px 15px rgba(110,193,228,.3)}
+.couple-photo{width:100%;height:100%;object-fit:cover}
+.couple-name{font-family:'Pinyon Script',serif;font-size:2.2rem;color:#333;margin-bottom:10px}
+.couple-parents{font-family:'Poppins',sans-serif;font-size:.9rem;color:#7A7A7A;line-height:1.6;margin-bottom:20px}
+.insta-btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff;padding:10px 25px;border-radius:50px;text-decoration:none;font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:500;transition:transform .3s ease}
+.insta-btn:hover{transform:scale(1.05)}
+.couple-separator{display:flex;align-items:center;justify-content:center;margin-top:80px}
+.couple-separator span.font-combo{font-size:4rem;color:#6EC1E4}
+/* COUNTDOWN */
+.countdown-section{padding:80px 20px;background:#fff}
+.countdown-label{text-align:center;margin-bottom:50px}
+.countdown-label span{font-family:'Pinyon Script',serif;font-size:2.5rem;color:#333}
+.countdown-timer{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.countdown-box{background:linear-gradient(135deg,#6EC1E4,#4a9fd4);border-radius:15px;padding:30px 25px;min-width:120px;text-align:center;box-shadow:0 10px 30px rgba(110,193,228,.3);color:#fff}
+.count-number{display:block;font-family:'Poppins',sans-serif;font-size:3rem;font-weight:700;line-height:1;margin-bottom:5px}
+.count-label{font-family:'Poppins',sans-serif;font-size:.9rem;text-transform:uppercase;letter-spacing:2px;opacity:.9}
+/* WEDDING EVENT */
+.wedding-event-section{padding:80px 20px}
+.wedding-event-grid{display:flex;gap:0;max-width:1140px;margin:0 auto}
+.wedding-event-col{flex:1;padding:40px;background:#fff}
+.wedding-event-col:first-child{border-right:1px solid #e0d8d0}
+.event-title{font-family:'Pinyon Script',serif;font-size:2rem;color:#333;margin-bottom:10px;text-align:center}
+.event-date{font-family:'Poppins',sans-serif;font-size:1.5rem;color:#6EC1E4;margin-bottom:5px}
+.event-time{font-family:'Poppins',sans-serif;font-size:1.2rem;color:#54595F;margin-bottom:15px}
+.event-location{font-family:'Poppins',sans-serif;font-size:1rem;color:#7A7A7A;line-height:1.6;margin-bottom:15px}
+.event-map-icon{color:#6EC1E4;font-size:1.5rem;margin-bottom:15px}
+.event-btn{display:inline-block;background:linear-gradient(135deg,#6EC1E4,#61CE70);color:#fff;padding:10px 30px;border-radius:50px;text-decoration:none;font-family:'Poppins',sans-serif;font-size:1rem;font-weight:500;transition:transform .3s ease}
+.event-btn:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(110,193,228,.4)}
+/* LOVE STORY */
+.love-story-section{padding:80px 20px;background:#fafafa}
+.love-story-container{max-width:1140px;margin:0 auto}
+.love-story-title{font-family:'Pinyon Script',serif;font-size:2.5rem;color:#333;text-align:center;margin-bottom:10px}
+.love-story-item{padding:30px;background:#fff;border-radius:15px;margin-bottom:20px;box-shadow:0 5px 15px rgba(0,0,0,.05)}
+.love-story-date{font-family:'Pinyon Script',serif;font-size:1.5rem;color:#6EC1E4;margin-bottom:10px}
+.love-story-quote{font-family:'Cormorant Infant',serif;font-style:italic;font-size:1.2rem;color:#54595F;line-height:1.8}
+/* WEDDING GIFT */
+.wedding-gift-section{padding:80px 20px;background:#fff}
+.wedding-gift-container{max-width:1140px;margin:0 auto;text-align:center}
+.wedding-gift-title{font-family:'Pinyon Script',serif;font-size:2.5rem;color:#333;margin-bottom:10px}
+.wedding-gift-desc{font-family:'Poppins',sans-serif;font-size:1rem;color:#7A7A7A;margin-bottom:30px;max-width:700px;margin-left:auto;margin-right:auto}
+.gift-grid{display:flex;gap:30px;justify-content:center;flex-wrap:wrap;margin-bottom:30px}
+.gift-card{background:#fafafa;border-radius:15px;padding:30px;min-width:280px;max-width:350px;box-shadow:0 5px 15px rgba(0,0,0,.05)}
+.gift-bank-logo{width:120px;height:60px;background:#e0e0e0;border-radius:8px;margin:0 auto 15px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:600;color:#666;font-size:.9rem}
+.gift-account-name{font-family:'Pinyon Script',serif;font-size:1.5rem;color:#6EC1E4;margin-bottom:5px}
+.gift-account-number{font-family:'Poppins',sans-serif;font-size:1.1rem;color:#333;cursor:pointer;padding:8px 15px;border:1px dashed #6EC1E4;border-radius:8px;display:inline-block;margin:10px 0;transition:background .3s ease}
+.gift-account-number:hover{background:#6EC1E4;color:#fff}
+.gift-copy-btn{display:inline-block;background:linear-gradient(135deg,#6EC1E4,#61CE70);color:#fff;padding:8px 20px;border-radius:50px;text-decoration:none;font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:500;transition:transform .3s ease}
+.gift-copy-btn:hover{transform:scale(1.05)}
+.gift-wa-btn{display:inline-block;background:#25D366;color:#fff;padding:8px 20px;border-radius:50px;text-decoration:none;font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:500;margin-left:10px;transition:transform .3s ease}
+.gift-wa-btn:hover{transform:scale(1.05)}
+/* DOA & UCAPAN */
+.doa-section{padding:80px 20px;background:linear-gradient(180deg,#f0ebe6 0%,#e8e0d8 100%)}
+.doa-container{max-width:1140px;margin:0 auto;text-align:center}
+.doa-title{font-family:'Pinyon Script',serif;font-size:2.5rem;color:#333;margin-bottom:30px}
+.doa-form{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:15px}
+.doa-input,.doa-textarea,.doa-select{width:100%;padding:15px 20px;border:2px solid #e0d8d0;border-radius:12px;font-family:'Poppins',sans-serif;font-size:1rem;color:#333;background:#fff;transition:border-color .3s ease;outline:none}
+.doa-input:focus,.doa-textarea:focus,.doa-select:focus{border-color:#6EC1E4}
+.doa-textarea{height:120px;resize:vertical}
+.doa-btn{background:linear-gradient(135deg,#6EC1E4,#61CE70);color:#fff;border:none;padding:15px 40px;border-radius:50px;font-family:'Poppins',sans-serif;font-size:1.1rem;font-weight:600;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease;margin-top:10px}
+.doa-btn:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(110,193,228,.4)}
+/* COVER MODAL */
+.cover-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;background-repeat:no-repeat;z-index:99999;display:flex;align-items:center;justify-content:center;transition:opacity .6s ease}
+.cover-overlay.closed{opacity:0;pointer-events:none}
+.cover-content{text-align:center;color:#fff;background:rgba(0,0,0,.5);padding:60px;border-radius:20px;max-width:500px;width:90%}
+.cover-wedding{font-family:'Pinyon Script',serif;font-size:2rem;margin-bottom:10px}
+.cover-name{font-family:'Combo',cursive;font-size:2.5rem;color:#FFBC7D;margin-bottom:20px}
+.cover-dear{font-family:'Poppins',sans-serif;font-size:1rem;color:#fff;margin-bottom:10px}
+.cover-guest-name{font-family:'Pinyon Script',serif;font-size:1.5rem;color:#6EC1E4;margin-bottom:30px}
+.cover-btn{display:inline-block;background:linear-gradient(135deg,#6EC1E4,#61CE70);color:#fff;padding:15px 40px;border-radius:50px;text-decoration:none;font-family:'Poppins',sans-serif;font-size:1.1rem;font-weight:600;transition:transform .3s ease}
+.cover-btn:hover{transform:scale(1.05)}
+/* AUDIO PLAYER */
+.audio-player{position:fixed;bottom:20px;right:20px;z-index:10000}
+.audio-box{display:flex;gap:10px;align-items:center}
+.audio-icon{width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#6EC1E4,#61CE70);display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.5rem;cursor:pointer;transition:transform .3s ease}
+.audio-icon:hover{transform:scale(1.1)}
+/* FOOTER */
+.site-footer{padding:40px 20px;background:#333;text-align:center}
+.social-links{display:flex;justify-content:center;gap:20px;margin-bottom:20px}
+.social-link{display:flex;align-items:center;justify-content:center;width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,.1);color:#fff;text-decoration:none;font-size:1.3rem;transition:background .3s ease,transform .3s ease}
+.social-link:hover{background:#6EC1E4;transform:translateY(-3px)}
+.footer-text{font-family:'Poppins',sans-serif;font-size:.8rem;color:#999}
+/* RESPONSIVE */
+@media only screen and (max-width:1024px){
+.hero-container{flex-direction:column}
+.hero-left,.hero-right{width:100%;min-height:auto}
+.hero-left{padding:40px 30px}
+.hero-content h1.font-heading-script{font-size:2.5rem}
+.couple-container{flex-direction:column;align-items:center}
+.couple-separator{margin-top:20px;margin-bottom:20px}
+.wedding-event-grid{flex-direction:column}
+.wedding-event-col:first-child{border-right:none;border-bottom:1px solid #e0d8d0}
+.gift-grid{flex-direction:column;align-items:center}
+}
+@media only screen and (max-width:767px){
+.hero-content h2.font-heading-script{font-size:1.8rem}
+.hero-content h1.font-heading-script{font-size:2rem}
+.hero-text-content h1.font-heading-script{font-size:2rem}
+.hero-text-content h2.font-heading-script{font-size:1.5rem}
+.date-text{font-size:1.4rem}
+.letter-box{width:100px;height:100px}
+.letter-box h1.font-combo{font-size:4rem}
+.countdown-box{min-width:80px;padding:20px 15px}
+.count-number{font-size:2rem}
+.couple-card{width:100%;max-width:300px}
+.bismillah-text span.font-combo{font-size:1.3rem}
+}
+@media only screen and (max-width:480px){
+.countdown-timer{gap:10px}
+.countdown-box{min-width:70px;padding:15px 10px}
+.count-number{font-size:1.5rem}
+}
+/* ]]> */
+</style>
+
+<style type='text/css'>
+/* <![CDATA[ */
+.header-outer,.header-inner,.region-inner{display:none!important}
+body{margin:0!important;padding:0!important}
+/* ]]> */
+</style>
+</b:skin>
+</head>
+<body>
+
+<!-- COVER MODAL -->
+<div class='cover-overlay' id='coverModal' style='background-image:url("https://i.imgur.com/wedding-cover.jpg");'>
+  <div class='cover-content'>
+    <div class='cover-wedding font-heading-script'>The Wedding of</div>
+    <div class='cover-name font-combo'>Umar &amp; Aisyah</div>
+    <div class='cover-dear font-body'>Kpd Bpk/Ibu/Saudara/i</div>
+    <div class='cover-guest-name font-heading-script' id='coverGuestName'></div>
+    <div class='cover-btn' id='coverOpenBtn'>Buka Undangan</div>
+  </div>
+</div>
+
+<!-- AUDIO PLAYER -->
+<div class='audio-player'>
+  <div class='audio-box'>
+    <div class='audio-icon' id='audioToggle' onclick='toggleAudio()'>
+      <i class='fas fa-play' id='audioIcon'></i>
+    </div>
+  </div>
+</div>
+<audio id='song' loop>
+  <source src='https://i.imgur.com/wedding-song.mp3' type='audio/mp3'/>
+</audio>
+
+<!-- HERO SECTION -->
+<section class='hero-section'>
+  <div class='hero-container'>
+    <div class='hero-left'>
+      <div class='hero-content'>
+        <h2 class='font-heading-script animated-slow elementor-invisible'>Our Wedding Invitation</h2>
+        <h1 class='font-heading-script animated-slow elementor-invisible'>Umar &amp; Aisyah</h1>
+        <p class='quote-text font-islamic'>"What counts in making a happy marriage is not so much how compatible you are, but how you deal with incompatibility. A great marriage is not when the perfect couple comes together. It is when an imperfect couple learns to enjoy their differences."</p>
+        <p class='guest-label font-body'>Kepada Yth. Bapak / Ibu / Saudara/i</p>
+        <p class='guest-label-highlight font-combo'>Tamu Undangan</p>
+      </div>
+    </div>
+    <div class='hero-right'>
+      <div class='hero-image' style='background-image:url("https://i.imgur.com/wedding-hero.jpg");'>
+        <div class='hero-overlay'></div>
+        <div class='hero-text-content'>
+          <h2 class='font-heading-script animated-slow elementor-invisible'>The Wedding of</h2>
+          <h1 class='font-heading-script animated-slow elementor-invisible'>Umar &amp; Aisyah</h1>
+          <h2 class='heading-fadeInUp date-text'>Minggu, 24 Januari 2024</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOWER SECTION -->
+<section class='lower-section'>
+  <div class='lower-container'>
+    <div class='letters-row'>
+      <div class='letter-box'>
+        <h1 class='font-combo animated-slow elementor-invisible'>U</h1>
+      </div>
+      <div class='letter-box'>
+        <h1 class='font-combo animated-slow elementor-invisible'>A</h1>
+      </div>
+    </div>
+    <div class='quran-text'>
+      <h2 class='font-islamic'>"Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan hati dan dijadikannya kasih sayang di antara kamu. Sesungguhnya yang demikian menjadi tanda-tanda kebesaran-Nya bagi orang-orang yang berpikir."</h2>
+      <p class='quran-ref font-body'>(QS. Ar-Rum: 21)</p>
+    </div>
+  </div>
+</section>
+
+<!-- BRIDE & GROOM -->
+<section class='bride-groom-section'>
+  <div class='bg-overlay'></div>
+  <div class='container'>
+    <div class='section-label'>
+      <span class='animated-slow elementor-invisible'>Bride &amp; Groom</span>
+    </div>
+    <div class='bismillah-text'>
+      <span class='font-combo animated-slow elementor-invisible'>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</span>
+    </div>
+    <p class='desc-text animated-slow elementor-invisible'>Dengan memanjatkan puji dan syukur ke hadirat Allah SWT, serta dengan memohon ridho-Nya kami bermaksud mengadakan acara pernikahan :</p>
+    <div class='couple-container'>
+      <div class='couple-card bride-card'>
+        <div class='couple-image-wrapper'>
+          <img src='https://i.imgur.com/bride-photo.jpg' alt='Aisyah Putri' class='couple-photo'/>
+        </div>
+        <h3 class='couple-name font-heading-script'>Aisyah Putri</h3>
+        <p class='couple-parents font-body'>Putri Pertama dari<br>Bapak Khalid dan Ibu Arum</p>
+        <a href='https://instagram.com' target='_blank' class='insta-btn'>
+          <i class='fab fa-instagram'></i>
+          <span>@your.instagram</span>
+        </a>
+      </div>
+      <div class='couple-separator'>
+        <span class='font-combo'>&amp;</span>
+      </div>
+      <div class='couple-card groom-card'>
+        <div class='couple-image-wrapper'>
+          <img src='https://i.imgur.com/groom-photo.jpg' alt='Umar Putra' class='couple-photo'/>
+        </div>
+        <h3 class='couple-name font-heading-script'>Umar Putra</h3>
+        <p class='couple-parents font-body'>Putra terakhir dari<br>Bapak Ali dan Ibu Hafshah</p>
+        <a href='https://instagram.com' target='_blank' class='insta-btn'>
+          <i class='fab fa-instagram'></i>
+          <span>@your.instagram</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class='countdown-section'>
+  <div class='container'>
+    <div class='countdown-label'>
+      <span class='animated-slow elementor-invisible'>Count The Date</span>
+    </div>
+    <div class='countdown-timer'>
+      <div class='countdown-box'>
+        <span class='count-number' id='days'>00</span>
+        <span class='count-label'>Hari</span>
+      </div>
+      <div class='countdown-box'>
+        <span class='count-number' id='hours'>00</span>
+        <span class='count-label'>Jam</span>
+      </div>
+      <div class='countdown-box'>
+        <span class='count-number' id='minutes'>00</span>
+        <span class='count-label'>Menit</span>
+      </div>
+      <div class='countdown-box'>
+        <span class='count-number' id='seconds'>00</span>
+        <span class='count-label'>Detik</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ADDITIONAL TEXT -->
+<section class='countdown-section' style='background:#fafafa;padding-top:40px;padding-bottom:40px;'>
+  <div class='container'>
+    <div class='container'>
+    <p class='font-islamic' style='text-align:center;font-style:italic;color:#54595F;line-height:1.8;max-width:800px;margin:0 auto;'>&quot;Ketika berbicara tentang pernikahan, Allah berfirman bahwa pasanganmu adalah pakaian untukmu. Sebuah pakaian mungkin atau mungkin tidak pas dengan sempurna-tapi bagaimanapun juga, itu menutupi ketidaksempurnaan, melindungi dan mempercantik.&quot;</p>
+    </div>
+  </div>
+</section>
+
+<!-- WEDDING EVENT (Akad Nikah + Resepsi) -->
+<section class='wedding-event-section'>
+  <div class='container'>
+    <div class='wedding-event-grid'>
+      <!-- Akad Nikah -->
+      <div class='wedding-event-col'>
+        <h2 class='event-title'>Akad Nikah</h2>
+        <p class='event-date'>Minggu, 24 Januari 2024</p>
+        <p class='event-time'>Pukul : 08.00 - 10.00 WIB</p>
+        <div class='event-map-icon'><i class='fas fa-map-marker-alt'></i></div>
+        <p class='event-location'>Lokasi Acara :<br>Ballroom Mesjid Makmur<br>Jl. Lorem Ipsum N0.129, Jakarta</p>
+        <a href='#' class='event-btn'>Lihat Lokasi</a>
+      </div>
+      <!-- Resepsi -->
+      <div class='wedding-event-col'>
+        <h2 class='event-title'>Resepsi</h2>
+        <p class='event-date'>Minggu, 24 Januari 2024</p>
+        <p class='event-time'>Pukul : 13:00 WIB</p>
+        <div class='event-map-icon'><i class='fas fa-map-marker-alt'></i></div>
+        <p class='event-location'>Lokasi Acara :<br>Ballroom Mesjid Makmur<br>Jl. Lorem Ipsum N0.129, Jakarta</p>
+        <a href='#' class='event-btn'>Lihat Lokasi</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOVE STORY -->
+<section class='love-story-section'>
+  <div class='love-story-container'>
+    <h2 class='love-story-title'>Love Story</h2>
+    <div class='love-story-item'>
+      <p class='love-story-date'>Juli 2019</p>
+      <p class='love-story-quote'>&quot;tidak ada pasangan yang benar benar cocok, yang ada ialah pasangan yang hatinya begitu luas untuk menerima ketidak cocokan.&quot;</p>
+    </div>
+    <div class='love-story-item'>
+      <p class='love-story-date'>November 2022</p>
+      <p class='love-story-quote'>&quot;lemah dalam berkata, kabur dalam pandangan namun tetap utuh dalam sanubari.&quot;</p>
+    </div>
+    <div class='love-story-item'>
+      <p class='love-story-date'>Oktober 2023</p>
+      <p class='love-story-quote'>&quot;tiada hubungan terindah seorang laki-laki dan wanita kecuali hubungan dalam pernikahan.&quot;</p>
+    </div>
+    <div class='love-story-item'>
+      <p class='love-story-date'>Desember 2023</p>
+      <p class='love-story-quote'>&quot;tiada hubungan terindah seorang laki-laki dan wanita kecuali hubungan dalam pernikahan.&quot;</p>
+    </div>
+  </div>
+</section>
+
+<!-- WEDDING GIFT -->
+<section class='wedding-gift-section'>
+  <div class='wedding-gift-container'>
+    <h2 class='wedding-gift-title'>Wedding Gift</h2>
+    <p class='wedding-gift-desc'>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi gift</p>
+    <div class='gift-grid'>
+      <div class='gift-card'>
+        <div class='gift-bank-logo'>BCA</div>
+        <div class='gift-account-name'>Putra Pratama</div>
+        <div class='gift-account-number' onclick='copyText(this)'>1234567890</div>
+        <br>
+        <a class='gift-copy-btn' onclick='copyText(this)'>Salin No Rekening</a>
+        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6281234567890&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
+      </div>
+      <div class='gift-card'>
+        <div class='gift-bank-logo'>BNI</div>
+        <div class='gift-account-name'>Putra Pratama</div>
+        <div class='gift-account-number' onclick='copyText(this)'>0987654321</div>
+        <br>
+        <a class='gift-copy-btn' onclick='copyText(this)'>Salin No Rekening</a>
+        <a class='gift-wa-btn' href='https://api.whatsapp.com/send?phone=6281234567890&amp;text=Saya%20mau%20konfirmasi%20pengiriman%20amplop%20digital'>Klik Whatsapp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOA & UCAPAN -->
+<section class='doa-section'>
+  <div class='doa-container'>
+    <h2 class='doa-title'>Doa &amp; Ucapan</h2>
+    <div class='doa-form'>
+      <input type='text' class='doa-input' placeholder='Nama Tamu' id='doaName'/>
+      <select class='doa-select' id='doaKonfirmasi'>
+        <option value='' disabled selected>Konfirmasi Kehadiran</option>
+        <option value='Hadir'>Hadir</option>
+        <option value='Tidak hadir'>Tidak hadir</option>
+        <option value='Masih Ragu'>Masih Ragu</option>
+      </select>
+      <textarea class='doa-textarea' placeholder='Ucapan / Doa' id='doaUcapan'></textarea>
+      <button class='doa-btn' onclick='submitDoa()'>Kirim</button>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL MESSAGE -->
+<section class='lower-section' style='padding-top:40px;padding-bottom:40px;'>
+  <div class='lower-container'>
+    <p class='font-heading-script' style='font-size:2rem;color:#333;text-align:center;margin-bottom:10px;'>Merupakan suatu kebahagiaan kehormatan dan kebahagian bagi kami sekeluarga apabila Bapak/Ibu/Saudara/I berkenan hadir untuk memeriahkan acara pernikahan kami, Terimakasih</p>
+    <p class='font-heading-script' style='font-size:2.5rem;color:#6EC1E4;text-align:center;'>Umar &amp; Aisyah</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class='site-footer'>
+  <div class='container'>
+    <div class='social-links'>
+      <a href='https://wa.me' target='_blank' class='social-link'><i class='fab fa-whatsapp'></i></a>
+      <a href='https://instagram.com' target='_blank' class='social-link'><i class='fab fa-instagram'></i></a>
+      <a href='https://youtube.com' target='_blank' class='social-link'><i class='fab fa-youtube'></i></a>
+    </div>
+    <p class='footer-text'>&copy; 2024 Umar &amp; Aisyah. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script type='text/javascript'>
+// <![CDATA[
+// COVER MODAL
+var coverModal = document.getElementById('coverModal');
+var coverOpenBtn = document.getElementById('coverOpenBtn');
+var song = document.getElementById('song');
+
+coverOpenBtn.addEventListener('click', function(e) {
+  e.preventDefault();
+  coverModal.classList.add('closed');
+  setTimeout(function(){
+    coverModal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }, 650);
+  song.play().catch(function(){});
+});
+
+// GUEST NAME from URL
+function getGuestName() {
+  var params = new URLSearchParams(window.location.search);
+  var name = params.get('to') || params.get('dear') || params.get('kepada');
+  var guestEl = document.getElementById('coverGuestName');
+  if (name && name.trim()) {
+    guestEl.textContent = name;
+  }
+  // Also replace 'Tamu Undangan' everywhere
+  var namatamuEls = document.querySelectorAll('.namatamu');
+  namatamuEls.forEach(function(el) {
+    if (name && name.trim()) {
+      el.textContent = name;
+    }
+  });
+}
+getGuestName();
+
+// AUDIO TOGGLE
+var audioToggle = document.getElementById('audioToggle');
+var audioIcon = document.getElementById('audioIcon');
+var isPlaying = false;
+
+function toggleAudio() {
+  if (isPlaying) {
+    song.pause();
+    audioIcon.className = 'fas fa-play';
+    isPlaying = false;
+  } else {
+    song.play();
+    audioIcon.className = 'fas fa-pause';
+    isPlaying = true;
+  }
+}
+
+// COUNTDOWN TIMER
+function startCountdown() {
+  var weddingDate = new Date('January 24, 2024 00:00:00').getTime();
+  setInterval(function() {
+    var now = new Date().getTime();
+    var distance = weddingDate - now;
+    if (distance < 0) {
+      clearInterval(this);
+      document.getElementById('days').innerText = '00';
+      document.getElementById('hours').innerText = '00';
+      document.getElementById('minutes').innerText = '00';
+      document.getElementById('seconds').innerText = '00';
+      return;
+    }
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById('days').innerText = days.toString().padStart(2, '0');
+    document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+    document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+    document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
+  }, 1000);
+}
+
+// COPY TEXT
+function copyText(el) {
+  var content = '';
+  if (el.classList.contains('gift-account-number')) {
+    content = el.textContent;
+  } else if (el.classList.contains('gift-copy-btn')) {
+    var card = el.closest('.gift-card');
+    content = card ? card.querySelector('.gift-account-number').textContent : '';
+  }
+  if (content) {
+    var temp = document.createElement('textarea');
+    temp.value = content;
+    document.body.appendChild(temp);
+    temp.select();
+    document.execCommand('copy');
+    temp.remove();
+    var originalText = el.textContent;
+    el.textContent = 'Berhasil disalin!';
+    setTimeout(function() { el.textContent = originalText; }, 2000);
+  }
+}
+
+// SUBMIT DOA
+function submitDoa() {
+  var name = document.getElementById('doaName').value;
+  var konfirmasi = document.getElementById('doaKonfirmasi').value;
+  var ucapan = document.getElementById('doaUcapan').value;
+  if (!name.trim()) { alert('Mohon isi nama tamu terlebih dahulu.'); return; }
+  if (!konfirmasi) { alert('Mohon pilih konfirmasi kehadiran.'); return; }
+  if (!ucapan.trim()) { alert('Mohon isi ucapan.'); return; }
+  alert('Terima kasih, ' + name + '! Doa & ucapan Anda telah terkirim.');
+  document.getElementById('doaName').value = '';
+  document.getElementById('doaKonfirmasi').value = '';
+  document.getElementById('doaUcapan').value = '';
+}
+
+// INIT
+document.addEventListener('DOMContentLoaded', function() {
+  startCountdown();
+  // Add animation classes
+  var animatedEls = document.querySelectorAll('.animated-slow');
+  animatedEls.forEach(function(el) {
+    el.classList.add('elementor-invisible');
+  });
+});
+// ]]>
+</script>
+
+<b:include data='blog' name='google-analytics'/>
+</body>
+</html>
