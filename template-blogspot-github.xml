@@ -1743,6 +1743,16 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     var nama = toTitleCase(raw.replace(/[-_+]/g, ' ').replace(/\s+/g, ' ').trim());
     if (!nama) return;
 
+    var injected = false;
+
+    /* ── 1. WeddingKit cover card: div.wdk-name.namatamu ─────────── */
+    document.querySelectorAll('.wdk-name, .namatamu, .wdk-name.namatamu').forEach(function (el) {
+      el.textContent = nama;
+      el.style.display = 'block';
+      injected = true;
+    });
+
+    /* ── 2. Elementor heading: elemen berteks "Tamu Undangan" ──────── */
     var selectors = [
       'p.elementor-heading-title',
       'span.elementor-heading-title',
@@ -1750,33 +1760,32 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
       'h2.elementor-heading-title',
       'h3.elementor-heading-title'
     ];
-
-    var found = false;
     selectors.forEach(function (sel) {
       document.querySelectorAll(sel).forEach(function (el) {
         if (el.textContent.trim() === 'Tamu Undangan') {
           el.textContent = nama;
-          found = true;
+          injected = true;
         }
       });
     });
 
-    // Update judul tab browser
-    if (found) {
+    /* ── 3. Update judul tab browser ─────────────────────────────── */
+    if (injected) {
       document.title = 'Undangan untuk ' + nama;
     }
   }
 
-  // Jalankan saat DOM ready
+  /* Jalankan saat DOM ready */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', injectNama);
   } else {
     injectNama();
   }
-  // Jalankan ulang setelah Elementor/JS lain selesai render
-  setTimeout(injectNama, 500);
-  setTimeout(injectNama, 1200);
-  setTimeout(injectNama, 2500);
+  /* Jalankan ulang setelah plugin WeddingKit/Elementor selesai render */
+  setTimeout(injectNama, 300);
+  setTimeout(injectNama, 800);
+  setTimeout(injectNama, 1500);
+  setTimeout(injectNama, 3000);
 })();
 </script>
 	</body>
