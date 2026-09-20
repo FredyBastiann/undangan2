@@ -3,12 +3,14 @@
 <html lang="id">
 <head>
 <script>
-/* Hilangkan parameter ?m=1 / ?m=0 Blogger dari URL secara instan */
+/* Hilangkan parameter ?m=1 / ?m=0 Blogger dari URL secara aman tanpa reload & tanpa mengganggu ?to= */
 (function() {
   try {
-    var url = window.location.toString();
-    if (url.indexOf('m=1') !== -1 || url.indexOf('m=0') !== -1) {
-      var cleanUrl = url.replace(/([?&])m=[01](&|$)/g, '$1').replace(/[?&]$/, '');
+    if (window.location.search && (window.location.search.indexOf('m=1') !== -1 || window.location.search.indexOf('m=0') !== -1)) {
+      var params = new URLSearchParams(window.location.search);
+      params.delete('m');
+      var newSearch = params.toString() ? '?' + params.toString() : '';
+      var cleanUrl = window.location.pathname + newSearch + window.location.hash;
       window.history.replaceState({}, document.title, cleanUrl);
     }
   } catch(e) {}
@@ -1440,7 +1442,7 @@ var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.
 
 <script>
 /* ================================================
-   SISTEM UNDANGAN PERSONAL (Fredy & Olif)
+   SISTEM UNDANGAN PERSONAL (Fredy & Olif) - Ringan & Cepat
    ================================================ */
 (function () {
   'use strict';
@@ -1452,7 +1454,6 @@ var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.
       var params = new URLSearchParams(search);
       var raw = params.get('to') || params.get('kepada') || params.get('nama') || params.get('u');
       
-      // Jika pakai format hash misal #Jono-Subarjo
       if (!raw && hash && hash.length > 1 && hash.indexOf('/') === -1 && hash.indexOf('=') === -1) {
         raw = hash.substring(1);
       }
@@ -1472,6 +1473,8 @@ var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.
     });
   }
 
+  var nameInjected = false;
+
   function injectNama() {
     var raw = getNamaTamu();
     if (!raw) return;
@@ -1479,43 +1482,37 @@ var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.
     var nama = toTitleCase(raw);
     if (!nama) return;
 
-    var injected = false;
-
-    // 1. WeddingKit cover card: .wdk-name, .namatamu, dan div setelah .wdk-dear
+    // 1. WeddingKit cover card
     var wdkTargets = document.querySelectorAll('.wdk-name, .namatamu, .wdk-name.namatamu');
     wdkTargets.forEach(function (el) {
-      el.textContent = nama;
+      if (el.textContent !== nama) {
+        el.textContent = nama;
+      }
       el.style.display = 'block';
       el.style.visibility = 'visible';
-      el.style.opacity = '1';
-      injected = true;
     });
 
-    // Cari juga elemen tepat setelah .wdk-dear jika class berbeda
+    // Cari elemen tepat setelah .wdk-dear
     document.querySelectorAll('.wdk-dear').forEach(function(el) {
       var next = el.nextElementSibling;
-      if (next && (next.classList.contains('wdk-name') || next.classList.contains('namatamu') || next.textContent.trim() === '' || next.textContent.trim() === 'Tamu Undangan')) {
+      if (next && next.textContent !== nama) {
         next.textContent = nama;
         next.style.display = 'block';
         next.style.visibility = 'visible';
-        next.style.opacity = '1';
-        injected = true;
       }
     });
 
-    // 2. Elementor heading titles
-    var headings = document.querySelectorAll('.elementor-heading-title');
-    headings.forEach(function (el) {
-      var txt = el.textContent.trim();
-      if (txt === 'Tamu Undangan' || txt === '' && el.closest('.elementor-element-585a4f47')) {
+    // 2. Elementor heading
+    document.querySelectorAll('.elementor-heading-title').forEach(function (el) {
+      if (el.textContent.trim() === 'Tamu Undangan') {
         el.textContent = nama;
-        injected = true;
       }
     });
 
-    // 3. Ubah judul tab browser
-    if (injected) {
+    // 3. Tab title
+    if (!nameInjected) {
       document.title = 'Undangan untuk ' + nama + ' | Fredy & Olif';
+      nameInjected = true;
     }
   }
 
@@ -1525,20 +1522,10 @@ var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.
     injectNama();
   }
 
-  // Observer agar jika Elementor me-render ulang / replace DOM, nama tetap masuk
-  try {
-    var observer = new MutationObserver(function() {
-      injectNama();
-    });
-    observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
-    // Hentikan observer setelah 6 detik agar hemat baterai
-    setTimeout(function() { observer.disconnect(); }, 6000);
-  } catch(e) {}
-
-  setTimeout(injectNama, 200);
-  setTimeout(injectNama, 600);
-  setTimeout(injectNama, 1200);
-  setTimeout(injectNama, 2500);
+  setTimeout(injectNama, 100);
+  setTimeout(injectNama, 400);
+  setTimeout(injectNama, 1000);
+  setTimeout(injectNama, 2000);
 })();
 </script>
 
