@@ -191,7 +191,7 @@ body{margin:0!important;padding:0!important}
 <div class='cover-overlay' id='coverModal' style='background-image:url("https://i.imgur.com/wedding-cover.jpg");'>
   <div class='cover-content'>
     <div class='cover-wedding font-heading-script'>The Wedding of</div>
-    <div class='cover-name font-combo'>Umar &amp; Aisyah</div>
+    <div class='cover-name font-combo'>Fredy Bastian Nugroho &amp; Siti Mukholifah</div>
     <div class='cover-dear font-body'>Kpd Bpk/Ibu/Saudara/i</div>
     <div class='cover-guest-name font-heading-script' id='coverGuestName'></div>
     <div class='cover-btn' id='coverOpenBtn'>Buka Undangan</div>
@@ -216,7 +216,7 @@ body{margin:0!important;padding:0!important}
     <div class='hero-left'>
       <div class='hero-content'>
         <h2 class='font-heading-script animated-slow elementor-invisible'>Our Wedding Invitation</h2>
-        <h1 class='font-heading-script animated-slow elementor-invisible'>Umar &amp; Aisyah</h1>
+        <h1 class='font-heading-script animated-slow elementor-invisible'>Fredy Bastian Nugroho &amp; Siti Mukholifah</h1>
         <p class='quote-text font-islamic'>"What counts in making a happy marriage is not so much how compatible you are, but how you deal with incompatibility. A great marriage is not when the perfect couple comes together. It is when an imperfect couple learns to enjoy their differences."</p>
         <p class='guest-label font-body'>Kepada Yth. Bapak / Ibu / Saudara/i</p>
         <p class='guest-label-highlight font-combo'>Tamu Undangan</p>
@@ -227,7 +227,7 @@ body{margin:0!important;padding:0!important}
         <div class='hero-overlay'></div>
         <div class='hero-text-content'>
           <h2 class='font-heading-script animated-slow elementor-invisible'>The Wedding of</h2>
-          <h1 class='font-heading-script animated-slow elementor-invisible'>Umar &amp; Aisyah</h1>
+          <h1 class='font-heading-script animated-slow elementor-invisible'>Fredy Bastian Nugroho &amp; Siti Mukholifah</h1>
           <h2 class='heading-fadeInUp date-text'>Minggu, 24 Januari 2024</h2>
         </div>
       </div>
@@ -267,10 +267,10 @@ body{margin:0!important;padding:0!important}
     <div class='couple-container'>
       <div class='couple-card bride-card'>
         <div class='couple-image-wrapper'>
-          <img src='https://i.imgur.com/bride-photo.jpg' alt='Aisyah Putri' class='couple-photo'/>
+          <img src='https://i.imgur.com/bride-photo.jpg' alt='Siti Mukholifah' class='couple-photo'/>
         </div>
-        <h3 class='couple-name font-heading-script'>Aisyah Putri</h3>
-        <p class='couple-parents font-body'>Putri Pertama dari<br>Bapak Khalid dan Ibu Arum</p>
+        <h3 class='couple-name font-heading-script'>Siti Mukholifah</h3>
+        <p class='couple-parents font-body'>Putri Pertama dari<br>Bapak [Nama Ayah] dan Ibu [Nama Ibu]</p>
         <a href='https://instagram.com' target='_blank' class='insta-btn'>
           <i class='fab fa-instagram'></i>
           <span>@your.instagram</span>
@@ -281,10 +281,10 @@ body{margin:0!important;padding:0!important}
       </div>
       <div class='couple-card groom-card'>
         <div class='couple-image-wrapper'>
-          <img src='https://i.imgur.com/groom-photo.jpg' alt='Umar Putra' class='couple-photo'/>
+          <img src='https://i.imgur.com/groom-photo.jpg' alt='Fredy Bastian Nugroho' class='couple-photo'/>
         </div>
-        <h3 class='couple-name font-heading-script'>Umar Putra</h3>
-        <p class='couple-parents font-body'>Putra terakhir dari<br>Bapak Ali dan Ibu Hafshah</p>
+        <h3 class='couple-name font-heading-script'>Fredy Bastian Nugroho</h3>
+        <p class='couple-parents font-body'>Putra terakhir dari<br>Bapak [Nama Ayah-2] dan Ibu [Nama Ibu-2]</p>
         <a href='https://instagram.com' target='_blank' class='insta-btn'>
           <i class='fab fa-instagram'></i>
           <span>@your.instagram</span>
@@ -427,7 +427,7 @@ body{margin:0!important;padding:0!important}
 <section class='lower-section' style='padding-top:40px;padding-bottom:40px;'>
   <div class='lower-container'>
     <p class='font-heading-script' style='font-size:2rem;color:#333;text-align:center;margin-bottom:10px;'>Merupakan suatu kebahagiaan kehormatan dan kebahagian bagi kami sekeluarga apabila Bapak/Ibu/Saudara/I berkenan hadir untuk memeriahkan acara pernikahan kami, Terimakasih</p>
-    <p class='font-heading-script' style='font-size:2.5rem;color:#6EC1E4;text-align:center;'>Umar &amp; Aisyah</p>
+    <p class='font-heading-script' style='font-size:2.5rem;color:#6EC1E4;text-align:center;'>Fredy Bastian Nugroho &amp; Siti Mukholifah</p>
   </div>
 </section>
 
@@ -439,7 +439,7 @@ body{margin:0!important;padding:0!important}
       <a href='https://instagram.com' target='_blank' class='social-link'><i class='fab fa-instagram'></i></a>
       <a href='https://youtube.com' target='_blank' class='social-link'><i class='fab fa-youtube'></i></a>
     </div>
-    <p class='footer-text'>&copy; 2024 Umar &amp; Aisyah. All Rights Reserved.</p>
+    <p class='footer-text'>&copy; 2024 Fredy Bastian Nugroho &amp; Siti Mukholifah. All Rights Reserved.</p>
   </div>
 </footer>
 
