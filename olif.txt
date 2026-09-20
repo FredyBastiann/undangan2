@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>
+/* Hilangkan parameter ?m=1 / ?m=0 Blogger dari URL secara aman tanpa reload & tanpa mengganggu ?to= */
+(function() {
+  try {
+    if (window.location.search && (window.location.search.indexOf('m=1') !== -1 || window.location.search.indexOf('m=0') !== -1)) {
+      var params = new URLSearchParams(window.location.search);
+      params.delete('m');
+      var newSearch = params.toString() ? '?' + params.toString() : '';
+      var cleanUrl = window.location.pathname + newSearch + window.location.hash;
+      window.history.replaceState({}, document.title, cleanUrl);
+    }
+  } catch(e) {}
+})();
+</script>
+	<meta charset="UTF-8">
+		        <style type="text/css">
+            .wdk-comment-text img {
+                max-width: 100% !important;
+            }
+        </style>
+                <style type="text/css">
+            .cui-comment-text img {
+                max-width: 100% !important;
+            }
+        </style>
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.9 (Yoast SEO v27.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>The Wedding of Fredy &amp; Olif</title>
+	<meta name="description" content="Undangan Digital Viral, Selalu Up to Date, Murah, Terpercaya, dan Pasti Puas" />
+	<link rel="canonical" href="https://hiialfivitation.com/muslim-coksu/" />
+	<meta property="og:locale" content="id_ID" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="The Wedding of Fredy &amp; Olif" />
+	<meta property="og:description" content="Undangan Digital Viral, Selalu Up to Date, Murah, Terpercaya, dan Pasti Puas" />
+	<meta property="og:url" content="https://hiialfivitation.com/muslim-coksu/" />
+	<meta property="og:site_name" content="Hiialfi Invitation" />
+	<meta property="article:published_time" content="2025-05-06T14:22:05+00:00" />
+	<meta property="article:modified_time" content="2026-03-07T03:24:22+00:00" />
+	<meta property="og:image" content="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg" />
+	<meta property="og:image:width" content="1024" />
+	<meta property="og:image:height" content="1536" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="AdminHiialfi" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Ditulis oleh" />
+	<meta name="twitter:data1" content="AdminHiialfi" />
+	<meta name="twitter:label2" content="Estimasi waktu membaca" />
+	<meta name="twitter:data2" content="4 menit" />
+	
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel="alternate" type="application/rss+xml" title="Hiialfi Invitation &raquo; Feed" href="https://hiialfivitation.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hiialfi Invitation &raquo; Umpan Komentar" href="https://hiialfivitation.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hiialfi Invitation &raquo; Fredy &amp; Olif Umpan Komentar" href="https://hiialfivitation.com/muslim-coksu/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://hiialfivitation.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiialfivitation.com%2Fmuslim-coksu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://hiialfivitation.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiialfivitation.com%2Fmuslim-coksu%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='bdt-uikit-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/bdt-uikit.css' media='all' />
+<link rel='stylesheet' id='ep-helper-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/ep-helper.css' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="font-awesome-svg-styles-default-inline-css">
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+/*# sourceURL=font-awesome-svg-styles-default-inline-css */
+</style>
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/fonts2/svg-with-js.css' media='all' />
+<style id="font-awesome-svg-styles-inline-css">
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+/*# sourceURL=font-awesome-svg-styles-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='uaf_client_css-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/fonts2/uaf.css' media='all' />
+<link rel='stylesheet' id='wdk_style-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/style.css' media='screen' />
+<style id="wdk_style-inline-css">
+
+		.wdk-wrapper {
+		  font-size: 14
+		}
+	
+	/* Badge Status Kehadiran */
+	.wdk-wrapper .wdk-post-author-mark {
+	  display: inline-flex !important;
+	  align-items: center !important;
+	  font-size: 16px !important;
+	  vertical-align: middle !important;
+	}
+	.wdk-wrapper .wdk-post-author-mark svg {
+	  width: 16px !important;
+	  height: 16px !important;
+	  fill: currentColor !important;
+	}
+	.wdk-wrapper .wdk-post-author-hadir,
+	.wdk-wrapper .wdk-post-author-hadir svg {
+	  color: #3D9A62 !important;
+	  fill: #3D9A62 !important;
+	}
+	.wdk-wrapper .wdk-post-author-tidak_hadir,
+	.wdk-wrapper .wdk-post-author-tidak_hadir svg {
+	  color: #d90a11 !important;
+	  fill: #d90a11 !important;
+	}
+	.wdk-wrapper .wdk-post-author-masih_ragu,
+	.wdk-wrapper .wdk-post-author-masih_ragu svg {
+	  color: #d7a916 !important;
+	  fill: #d7a916 !important;
+	}
+	        .wdk-post-author {
+          color: white !important;
+          background: #777 !important;
+        }
+	.wdk-wrapper ul.wdk-container-comments li.wdk-item-comment .wdk-comment-avatar img {
+		max-width: 28px;
+		max-height: 28px;
+	}
+	.wdk-wrapper ul.wdk-container-comments li.wdk-item-comment .wdk-comment-content {
+		margin-left: 38px;
+	}
+	.wdk-wrapper ul.wdk-container-comments li.wdk-item-comment ul .wdk-comment-avatar img {
+		max-width: 24px;
+		max-height: 24px;
+	}
+	.wdk-wrapper ul.wdk-container-comments li.wdk-item-comment ul ul .wdk-comment-avatar img {
+		max-width: 21px;
+		max-height: 21px;
+	}
+	
+/*# sourceURL=wdk_style-inline-css */
+</style>
+<link rel='stylesheet' id='exad-main-style-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/exad-styles.min.css' media='all' />
+<link rel='stylesheet' id='cui_style-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/cui_style.css' media='screen' />
+<style id="cui_style-inline-css">
+
+		.cui-wrapper {
+		  font-size: 14px
+		}
+	.cui-post-author {
+	color: white !important;
+	background: #777 !important;
+}
+	.cui-wrapper ul.cui-container-comments li.cui-item-comment .cui-comment-avatar img {
+		max-width: 20px;
+		max-height: 20px;
+	}
+	.cui-wrapper ul.cui-container-comments li.cui-item-comment .cui-comment-content {
+		margin-left: 30px;
+	}
+	.cui-wrapper ul.cui-container-comments li.cui-item-comment ul .cui-comment-avatar img {
+		max-width: 16px;
+		max-height: 16px;
+	}
+	.cui-wrapper ul.cui-container-comments li.cui-item-comment ul ul .cui-comment-avatar img {
+		max-width: 13px;
+		max-height: 13px;
+	}
+    .cui_comment_count_card.cui_card-tidak_hadir {
+    background-color: #d90a11;
+    }
+    .cui_comment_count_card.cui_card-hadir {
+    background-color: #3D9A62;
+    }
+    .cui_comment_count_card.cui_card-masih_ragu {
+    background-color: #d7a916;
+    }
+	
+/*# sourceURL=cui_style-inline-css */
+</style>
+<link rel='stylesheet' id='wdp-icon-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/new-icon.min.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/reset.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/theme.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/header-footer.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/frontend.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/post-5.css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v6.7.2/css/all.css' media='all' integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous" />
+<link rel='stylesheet' id='weddingkit-pro-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/widgets.css' media='all' />
+<link rel='stylesheet' id='weddingpress-wdp-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/wdp.css' media='all' />
+<link rel='stylesheet' id='kirim-kit-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/guest-book.css' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/widget-spacer.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-zoomIn-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/zoomIn.min.css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/widget-heading.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/fadeInUp.min.css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/swiper.min.css' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/e-swiper.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInDown-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/fadeInDown.min.css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/widget-image.min.css' media='all' />
+<link rel='stylesheet' id='e-motion-fx-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/motion-fx.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/fadeInLeft.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeIn-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/fadeIn.min.css' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/widget-social-icons.min.css' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/apple-webkit.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-3460-css' href='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/css/post-3460.css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://use.fontawesome.com/releases/v6.7.2/css/v4-shims.css' media='all' integrity="sha384-npPMK6zwqNmU3qyCCxEcWJkLBNYxEFM1nGgSoAWuCCXqVVz0cvwKEMfyTNkOxM2N" crossorigin="anonymous" />
+<script id="jquery-core-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery-migrate.min.js"></script>
+
+<meta name="generator" content="Elementor 4.1.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/cropped-Black-And-White-Minimalist-Love-Story-Studio-Logo-16-x-16-cm-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/cropped-Black-And-White-Minimalist-Love-Story-Studio-Logo-16-x-16-cm-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/cropped-Black-And-White-Minimalist-Love-Story-Studio-Logo-16-x-16-cm-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/cropped-Black-And-White-Minimalist-Love-Story-Studio-Logo-16-x-16-cm-1-270x270.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<style>
+#amplop {
+    margin-top: 35px !important;
+    margin-bottom: 30px !important;
+}
+#amplop .elementor-widget-wrap {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+#amplop .elementor-widget-wdk-copy {
+    margin-bottom: 15px !important;
+}
+</style>
+
+<!-- Google Fonts Resmi (Cepat, Bebas CORS, Selalu Aktif) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&family=Combo&family=Cormorant+Infant:ital,wght@0,400;0,600;0,700;1,400&family=Englebert&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="wp-singular post-template post-template-elementor_canvas single single-post postid-3460 single-format-standard wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-3460">
+			<div data-elementor-type="wp-post" data-elementor-id="3460" class="elementor elementor-3460" data-elementor-post-type="post">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-c83efbe elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-stretched elementor-section-height-default" data-id="c83efbe" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30aab0fb elementor-hidden-mobile" data-id="30aab0fb" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-34d0febb elementor-section-full_width elementor-section-height-min-height elementor-hidden-mobile elementor-section-height-default" data-id="34d0febb" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1dc69bf2" data-id="1dc69bf2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-34a5aeed elementor-widget elementor-widget-spacer" data-id="34a5aeed" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-33f9fffe elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="33f9fffe" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6c1ba767" data-id="6c1ba767" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-491ff9fe animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="491ff9fe" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Our Wedding Invitation</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6fc6dafb animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="6fc6dafb" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Fredy &amp; Olif</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-50b33c46 elementor-widget elementor-widget-heading" data-id="50b33c46" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">“What counts in making a happy marriage is not so much how compatible you are, but how you deal with incompatibility. A great marriage is not when the perfect couple comes together. It is when an imperfect couple learns to enjoy their differences.”</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4d249314 elementor-widget elementor-widget-heading" data-id="4d249314" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Kepada Yth. Bapak / Ibu /Saudara/i</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-585a4f47 elementor-widget elementor-widget-heading" data-id="585a4f47" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Tamu Undangan</p>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-68ccb42d" data-id="68ccb42d" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-5ae0a4cd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ae0a4cd" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_transition_duration&quot;:5000,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3467,&quot;url&quot;:&quot;https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-21.00.40-scaled.jpeg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1275e572" data-id="1275e572" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5804486a elementor-widget elementor-widget-spacer" data-id="5804486a" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d735bc7 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="d735bc7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">The Wedding of </h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4d861749 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="4d861749" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Fredy &amp; Olif</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2cb23e68 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="2cb23e68" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Senin, 28 September 2026</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b1f0ad1 elementor-widget elementor-widget-spacer" data-id="2b1f0ad1" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-408db196 elementor-widget elementor-widget-spacer" data-id="408db196" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1e67414b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e67414b" data-element_type="section" data-e-type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-24c3277a" data-id="24c3277a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-549c434d elementor-widget elementor-widget-spacer" data-id="549c434d" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d31f31f elementor-widget elementor-widget-spacer" data-id="d31f31f" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2dfa61b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2dfa61b6" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-cde6385" data-id="cde6385" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-3113f6cb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3113f6cb" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-56e85e1c" data-id="56e85e1c" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6c38f324 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="6c38f324" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">F</h1>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-52857ee2" data-id="52857ee2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7cca425d animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="7cca425d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">O</h1>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-c646a67 elementor-widget elementor-widget-heading" data-id="c646a67" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">" Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan hati dan dijadikannya kasih sayang di antara kamu. Sesungguhnya yang demikian menjadi tanda-tanda kebesaran-Nya bagi orang-orang yang berpikir. 
+
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2790ee7 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="2790ee7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">( QS.Ar - Rum 21 )</p>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6198ee89 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6198ee89" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5b31eed9" data-id="5b31eed9" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-67560479 elementor-widget elementor-widget-spacer" data-id="67560479" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3f67fb51 elementor-widget elementor-widget-heading" data-id="3f67fb51" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Bride &amp; Groom</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5a49d6e animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="5a49d6e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-63a09a76 elementor-widget elementor-widget-heading" data-id="63a09a76" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Dengan memanjatkan puji dan syukur ke hadirat Allah SWT, serta dengan memohon ridho-Nya kami bermaksud mengadakan acara pernikahan :</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1cd695fd elementor-widget elementor-widget-spacer" data-id="1cd695fd" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1b1d21f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b1d21f6" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1e1610e3" data-id="1e1610e3" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5d50b1df elementor-widget elementor-widget-spacer" data-id="5d50b1df" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-de5c218 animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="de5c218" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="1024" height="1536" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg" class="attachment-full size-full wp-image-3463" alt="" srcset="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1.jpeg 1024w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1-200x300.jpeg 200w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1-683x1024.jpeg 683w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.06-1-768x1152.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-74c09dc0 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="74c09dc0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Siti Mukholifah</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1124a6d animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="1124a6d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Putri dari<br>Bapak Paiman dan Ibu Sawitri</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-470d0369 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="470d0369" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://www.instagram.com/mukholifah123" target="_blank" rel="noopener noreferrer">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</span>
+									<span class="elementor-button-text">@mukholifah123</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-3e01ab6a animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="3e01ab6a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">&amp;</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b433fb0 animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="2b433fb0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1024" height="1536" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg" class="attachment-full size-full wp-image-3466" alt="" srcset="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05.jpeg 1024w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-200x300.jpeg 200w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-683x1024.jpeg 683w, https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-20.51.05-768x1152.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-63a0356f animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="63a0356f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Fredy Bastian Nugroho</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1ce4d656 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="1ce4d656" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Putra dari<br>Bapak Suko Utomo dan Ibu Sri Waningsih</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-569eb939 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="569eb939" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://www.instagram.com/fredybastian_" target="_blank" rel="noopener noreferrer">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</span>
+									<span class="elementor-button-text">@fredybastian_</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-2a8b1309 elementor-widget elementor-widget-spacer" data-id="2a8b1309" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-33cc441e elementor-widget elementor-widget-spacer" data-id="33cc441e" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-13ab1fe9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13ab1fe9" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-724a8bb6" data-id="724a8bb6" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-7cc59ce7 elementor-widget elementor-widget-spacer" data-id="7cc59ce7" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-a115665 elementor-widget elementor-widget-heading" data-id="a115665" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Count The Date</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7af152c6 elementor-widget elementor-widget-wdk-countdown" data-id="7af152c6" data-element_type="widget" data-e-type="widget" data-widget_type="wdk-countdown.default">
+				<div class="elementor-widget-container">
+					
+		<div class="wdk-elements-countdown-wrapper">
+			<div class="wdk-elements-countdown-container wdk-elements-countdown-label-block ">		
+				<ul id="wdk-elements-countdown-7af152c6" class="wdk-elements-countdown-items" data-date="Sep 28 2026 10:00:00" data-text="%1$s hari, %2$s jam, %3$s menit, %4$s detik">
+					<li class="wdk-elements-countdown-item"><div class="wdk-elements-countdown-days"><span data-days class="wdk-elements-countdown-digits">00</span><span class="wdk-elements-countdown-label">Hari</span></div></li>					<li class="wdk-elements-countdown-item"><div class="wdk-elements-countdown-hours"><span data-hours class="wdk-elements-countdown-digits">00</span><span class="wdk-elements-countdown-label">Jam</span></div></li>				<li class="wdk-elements-countdown-item"><div class="wdk-elements-countdown-minutes"><span data-minutes class="wdk-elements-countdown-digits">00</span><span class="wdk-elements-countdown-label">Menit</span></div></li>				<li class="wdk-elements-countdown-item"><div class="wdk-elements-countdown-seconds"><span data-seconds class="wdk-elements-countdown-digits">00</span><span class="wdk-elements-countdown-label">Detik</span></div></li>				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+
+		<!-- Original plugin countdown disabled to prevent digit flickering -->
+	
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-fc9df96 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="fc9df96" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Ketika berbicara tentang pernikahan, Allah berfirman bahwa pasanganmu adalah pakaian untukmu. Sebuah pakaian mungkin atau mungkin tidak pas dengan sempurna-tapi bagaimanapun juga, itu menutupi ketidaksempurnaan, melindungi dan mempercantik.
+</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f867052 elementor-widget elementor-widget-spacer" data-id="f867052" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-528f1fc4 elementor-widget elementor-widget-spacer" data-id="528f1fc4" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1b9005a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b9005a2" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3441c24a" data-id="3441c24a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-1b18e84a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b18e84a" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74465bd" data-id="74465bd" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5c5b6f17 elementor-widget elementor-widget-heading" data-id="5c5b6f17" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Wedding Event</span>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-db594d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db594d7" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9e1e6b8" data-id="9e1e6b8" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-442ec00 elementor-widget elementor-widget-spacer" data-id="442ec00" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-428a033 elementor-absolute vertical e-transform elementor-widget-mobile__width-initial elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="428a033" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-90,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:90,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Akad &amp; Resepsi</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c1909d8 e-transform elementor-widget elementor-widget-spacer" data-id="c1909d8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:90,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd60147" data-id="bd60147" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1ad84ac elementor-widget elementor-widget-spacer" data-id="1ad84ac" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f77828a animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="f77828a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Senin, 28 September 2026</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7628693 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="7628693" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Pukul : 10.00 WIB - Selesai</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-deab9cb animated-slow elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="deab9cb" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marked-alt" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5a750de animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="5a750de" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Lokasi Acara :<br>
+Kediaman Mempelai Wanita (Bpk. Paiman)<br>
+Ds. Stren, Kec. Ngasem, Kab. Bojonegoro</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-756f8be elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="756f8be" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-size-xs" href="https://maps.app.goo.gl/22VaQeEtenZamhN46" target="_blank" rel="noopener noreferrer" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>			</span>
+									<span class="elementor-button-text">Lihat Lokasi</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-e404b19 elementor-widget elementor-widget-spacer" data-id="e404b19" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4736e434 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4736e434" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1519ec47 frosted2" data-id="1519ec47" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-317143fc elementor-widget elementor-widget-spacer" data-id="317143fc" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-c5dc10f elementor-widget elementor-widget-spacer" data-id="c5dc10f" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-76656aa8 elementor-widget elementor-widget-heading" data-id="76656aa8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Wedding Gift</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2f2e10b8 elementor-widget elementor-widget-spacer" data-id="2f2e10b8" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-613626aa elementor-invisible elementor-widget elementor-widget-heading" data-id="613626aa" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi gift</span>				</div>
+				</div>
+				
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-12ae71fa animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="12ae71fa" data-element_type="section" data-e-type="section" id="amplop" style="display: block !important; margin-top: 35px !important; margin-bottom: 30px !important;" data-settings="{&quot;animation&quot;:&quot;zoomIn&quot;,&quot;animation_mobile&quot;:&quot;zoomIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-32faaade" data-id="32faaade" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-12c054f elementor-align-center elementor-mobile-align-center animated-slow  elementor-widget elementor-widget-wdk-copy" data-id="12c054f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="wdk-copy.default">
+				<div class="elementor-widget-container">
+							
+		<div class="elementor-image img">
+							<img decoding="async" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/BANK-BRI.png" alt="Bank BRI" style="max-height: 52px; width: auto; margin: 10px auto 12px auto; display: block;">
+					</div>
+
+		<div class="head-title">Bank BRI - Siti Mukholifah</div>
+		<div class="elementor-button-wrapper">
+						<div class="copy-content spancontent">0172 0107 8513 501</div>
+				
+			<a style="cursor:pointer;" onclick="copyText(this)" data-message="berhasil disalin" class="elementor-button" role="button">
+				
+		<div class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-copy" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"></path></svg>			</span>
+						<span class="elementor-button-text">Salin No Rekening</span>
+		</div>
+					</a>
+			
+		</div>
+
+		<style type="text/css">
+			.spancontent {
+				padding-bottom: 20px;
+			}
+			.copy-content {
+				color: #6EC1E4;
+				text-align: center;
+			}
+			.head-title {
+				color: #6EC1E4;
+				text-align: center;
+			}
+		</style>
+
+		<script>
+		function copyText(el) {
+		    var content = jQuery(el).siblings('div.copy-content').html()
+		    var temp = jQuery("<textarea>");
+		    jQuery("body").append(temp);
+		    temp.val(content.replace(/<br ?\/?>/g, "\n")).select();
+		    document.execCommand("copy");
+		    temp.remove();
+		    var text = jQuery(el).html()
+		    jQuery(el).html(jQuery(el).data('message'))
+		    var counter = 0;
+		    var interval = setInterval(function() {
+		        counter++;
+		        if (counter == 1) {
+		            jQuery(el).html(text)
+		        }
+		    }, 500);
+		}
+
+		</script>
+
+						</div>
+				</div>
+				
+				<div class="elementor-element elementor-element-47e362f0  elementor-widget elementor-widget-heading" data-id="47e362f0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Konfirmasi Pengiriman
+</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2a35a3a6 elementor-align-center elementor-mobile-align-center animated-slow  elementor-widget elementor-widget-wdk-whatsapp" data-id="2a35a3a6" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="wdk-whatsapp.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=6281529402356&amp;text=Saya%20mau%20konfirmasi%20pegiriman%20amplop%20digital%2C%20dengan%20transfer%20sejumlah%20..." class="elementor-button-link elementor-button elementor-size-sm">
+						<span class="elementor-button-content-wrapper elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-button-icon elementor-align-icon-left">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>			</span>
+						<span class="elementor-button-text">Klik Whatsapp</span>
+		</span>
+					</a>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-538786 elementor-widget elementor-widget-spacer" data-id="538786" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7e31da8a elementor-widget elementor-widget-html" data-id="7e31da8a" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+									</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2c0eb42d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2c0eb42d" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2b9dbfde" data-id="2b9dbfde" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6407093 elementor-widget elementor-widget-spacer" data-id="6407093" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ec0b467 elementor-widget elementor-widget-heading" data-id="ec0b467" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Doa &amp; Ucapan</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-21a0108 elementor-widget elementor-widget-weddingpress-kit2" data-id="21a0108" data-element_type="widget" data-e-type="widget" data-settings="{&quot;show_avatar&quot;:&quot;yes&quot;,&quot;attendence&quot;:&quot;yes&quot;,&quot;show_date&quot;:&quot;yes&quot;}" data-widget_type="weddingpress-kit2.default">
+				<div class="elementor-widget-container">
+					<div class='cui-wrapper cui-golden cui-border' style='overflow: hidden;'><div class='cui-wrap-link'><div class='header-cui'><a id='cui-link-3460' class='cui-link cui-icon-link cui-icon-link-true auto-load-true' href='?post_id=3460&amp;comments=1&amp;get=100&amp;order=DESC' title='1 Comment'><span>1</span> Comment</a></div></div><!--.cui-wrap-link--><div id='cui-wrap-commnent-3460' class='cui-wrap-comments' style='display:none;'><div id='cui-wrap-form-3460' class='cui-clearfix'><div class="cui-comment-attendence"><div id="invitation-count-3460" class="cui_comment_count_card_wrap"><div class="cui_comment_count_card_row_2"><div class="cui_comment_count_card cui_card-hadir"><span>1</span><span>Hadir</span></div><div class="cui_comment_count_card cui_card-tidak_hadir"><span>0</span><span>Tidak hadir</span></div></div></div></div><div class="cui-clearfix cui-wrap-form "><div id='cui-container-form-3460' class='cui-container-form cui-no-login'><div id='respond-3460' class='respond cui-clearfix'><form action='#' data-blogspot-guestbook='true' method='post' id='commentform-3460'><p class="comment-form-author cui-field-1"><input id="author" name="author" type="text" aria-required="true" class="cui-input" placeholder="Nama" /><span class="cui-required">*</span><span class="cui-error-info cui-error-info-name">Mohon maaf! Khusus untuk tamu undangan</span></p><div class="cui-wrap-textarea"><textarea id="cui-textarea-3460" class="waci_comment cui-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Ucapan" rows="2"></textarea><span class="cui-required">*</span><span class="cui-error-info cui-error-info-text">2 characters minimum.</span></div>
+        <div class="nm-wrap-comments">     
+        <div class="row">        
+</div>
+</div>    <div class="wdk-clearfix wdk-wrap-select wdk-field-wrap wdk-select-attending">
+        
+    <select class="waci_comment wdk-select" name="konfirmasi" id="konfirmasi" data-internal-keys='{"hadir":"Hadir","tidak_hadir":"Tidak hadir","masih_ragu":"Masih Ragu"}'>
+        <option value="" disabled selected>Konfirmasi Kehadiran</option>
+        <option value="Hadir" data-key="hadir">Hadir</option>
+        <option value="Tidak hadir" data-key="tidak_hadir">Tidak hadir</option>
+                <option value="Masih Ragu" data-key="masih_ragu">Masih Ragu</option>
+                        </select>
+    <input type="hidden" name="konfirmasi_key" id="konfirmasi_key" value="" />
+    <span class="wdk-required"></span><span class="wdk-error-info wdk-error-info-confirm"></span>
+    </div>
+    
+        
+        <div class="cui-clearfix cui-wrap-select cui-field-wrap cui-select-attending">
+        
+    <select class="waci_comment cui-select" name="konfirmasi" id="konfirmasi">
+        <option value="" disabled selected>Konfirmasi Kehadiran</option>
+        <option value="Hadir">Datang</option>
+        <option value="Tidak hadir">Absen</option>
+            </select><span class="cui-required"></span><span class="cui-error-info cui-error-info-confirm"></span>
+    </div>
+        <div class='cui-wrap-submit cui-clearfix'><p class='form-submit'><span class="cui-hide">Do not change these fields following</span><input type="text" class="cui-hide" name="name" value="username"><input type="text" class="cui-hide" name="nombre" value=""><input type="text" class="cui-hide" name="form-cui" value=""><input type="button" class="cui-form-btn cui-cancel-btn" value="Cancel"><input name='submit' id='submit-3460' value='Kirim' type='submit' /><input type='hidden' name='commentpress' value='true' /><input type='hidden' name='comment_post_ID' value='3460' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></div></form></div></div><!--.cui-container-form--></div><!--.cui-clearfix cui-relative--></div><!--.cui-wrap-form--><div id='cui-comment-status-3460'  class='cui-comment-status'></div><div id='cui-box' class='cui-box'><ul id='cui-container-comment-3460' class='cui-container-comments cui-order-DESC ' data-order='DESC'></ul></div><div id='cui-holder-id-3460' class='cui-holder-3460 cui-holder'></div></div><!--.cui-wrap-comments--></div><!--.cui-wrapper-->		<script>
+			/* Sumber: Hasil output shortcode yang sudah dirender (bukan user input mentah) */
+			var txt=document.getElementById('cui-link-3460').innerHTML;
+			var pos = txt
+			.replace(/Comments/g, "Comments");
+			document.getElementById('cui-link-3460').innerHTML = pos;
+			
+			/* Sumber: Hasil output shortcode yang sudah dirender (bukan user input mentah) */
+			var txt1=document.getElementById('invitation-count-3460').innerHTML;
+			var pos1 = txt1
+			.replace(/Hadir/g, "Hadir")
+			.replace(/Tidak hadir/g, "Tidak Hadir")
+			.replace(/Masih Ragu/g, "Masih Ragu");
+			document.getElementById('invitation-count-3460').innerHTML = pos1;
+
+			/* Sumber: Hasil output shortcode yang sudah dirender (bukan user input mentah) */
+			var txt2=document.getElementById('commentform-3460').innerHTML;
+			var pos2 = txt2
+			.replace(/Nama/g, "Nama")
+			.replace(/Ucapan/g, "Ucapan")
+			.replace(/Konfirmasi Kehadiran/g, "Konfirmasi Kehadiran")
+			.replace(/Datang/g, "Hadir")
+			.replace(/Absen/g, "Tidak Hadir")
+			.replace(/Mungkin/g, "Masih Ragu")
+			.replace(/Kirim/g, "Kirim");
+			document.getElementById('commentform-3460').innerHTML = pos2;
+
+		</script>
+        
+        				</div>
+				</div>
+				<div class="elementor-element elementor-element-5be832ce elementor-widget elementor-widget-spacer" data-id="5be832ce" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1a25a245 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1a25a245" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_transition_duration&quot;:5000,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3468,&quot;url&quot;:&quot;https:\/\/hiialfivitation.com\/wp-content\/uploads\/2025\/05\/WhatsApp-Image-2025-05-06-at-21.00.35-scaled.jpeg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7ff51709" data-id="7ff51709" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-1063214d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1063214d" data-element_type="section" data-e-type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-691503aa" data-id="691503aa" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-43006f49 elementor-widget elementor-widget-spacer" data-id="43006f49" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-46b75cc5 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="46b75cc5" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Merupakan suatu kebahagiaan kehormatan dan kebahagian bagi kami sekeluarga apabila Bapak/Ibu/Saudara/I berkenan hadir untuk memeriahkan acara pernikahan kami, Terimakasih</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6790993c animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="6790993c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Fredy &amp; Olif</h2>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7560861a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7560861a" data-element_type="section" data-e-type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e5f4a7f" data-id="e5f4a7f" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-39260966 elementor-widget elementor-widget-spacer" data-id="39260966" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5ad2dd02 elementor-widget elementor-widget-spacer" data-id="5ad2dd02" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-11f1104e elementor-widget elementor-widget-image" data-id="11f1104e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6d1c8adc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d1c8adc" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5737f2c0" data-id="5737f2c0" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-722d2fa9 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="722d2fa9" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6d68910f elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="6d68910f" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2a115970" data-id="2a115970" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-41762ccb elementor-view-stacked elementor-widget__width-auto elementor-fixed elementor-shape-circle elementor-widget elementor-widget-wdk-audio" data-id="41762ccb" data-element_type="widget" data-e-type="widget" data-settings="{&quot;loop&quot;:&quot;yes&quot;,&quot;_position&quot;:&quot;fixed&quot;}" data-widget_type="wdk-audio.default">
+				<div class="elementor-widget-container">
+								<script>
+				var settingAutoplay = 'yes';
+				window.settingAutoplay = settingAutoplay === 'disable' ? false : true;
+			</script>
+
+			<div id="audio-container" class="audio-box">
+
+				
+
+				<audio id="song" loop preload="none">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.mp3" type="audio/mpeg">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.m4a" type="audio/mp4">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.webm" type="audio/webm">
+		</audio>  
+			
+
+					
+			<div class="elementor-icon-wrapper" id="unmute-sound" style="display: none;">
+				<div class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fa-play-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>				</div>
+			</div> 
+
+			<div class="elementor-icon-wrapper" id="mute-sound">
+				<div class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fa-stop-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm96 328c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16h160c8.8 0 16 7.2 16 16v160z"></path></svg>				</div>
+			</div>
+			
+		</div>
+		
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e6fb29a" data-id="3e6fb29a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6c9e5349 elementor-widget elementor-widget-wdk-cover" data-id="6c9e5349" data-element_type="widget" data-e-type="widget" data-widget_type="wdk-cover.default">
+				<div class="elementor-widget-container">
+					        
+        <div id='wdk-cover-6c9e5349' class='modalx wdk-open-slide_up' data-sampul='https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/WhatsApp-Image-2025-05-06-at-21.00.40-scaled.jpeg' style='--wdk-open-duration: 650ms;'>
+        
+        <div class='overlayy'></div>
+        <div class='content-modalx'>
+            <div class='info_modalx'>
+                                <div class='elementor-image img'></div>
+                                
+                                <div class='wdk-txt-the-wedding' style='width:auto !important' >The Wedding of                </div>
+                
+                
+                        <div class='wdk-mempelai' style='width: auto !important;' >Fredy &amp; Olif
+                        </div>
+
+                
+
+                
+                                        <div class='wdk-dear' style='width: auto !important;' >Kpd Bpk/Ibu/Saudara/i</div>
+                                <div class='wdk-name namatamu' style='width: auto !important;'></div>
+                    
+                                <div class='wdk-button-wrapper'>
+                    <button class='elementor-button'>
+                                                <span >
+                            <svg aria-hidden="true" class="e-font-icon-svg e-far-envelope-open" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M494.586 164.516c-4.697-3.883-111.723-89.95-135.251-108.657C337.231 38.191 299.437 0 256 0c-43.205 0-80.636 37.717-103.335 55.859-24.463 19.45-131.07 105.195-135.15 108.549A48.004 48.004 0 0 0 0 201.485V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V201.509a48 48 0 0 0-17.414-36.993zM464 458a6 6 0 0 1-6 6H54a6 6 0 0 1-6-6V204.347c0-1.813.816-3.526 2.226-4.665 15.87-12.814 108.793-87.554 132.364-106.293C200.755 78.88 232.398 48 256 48c23.693 0 55.857 31.369 73.41 45.389 23.573 18.741 116.503 93.493 132.366 106.316a5.99 5.99 0 0 1 2.224 4.663V458zm-31.991-187.704c4.249 5.159 3.465 12.795-1.745 16.981-28.975 23.283-59.274 47.597-70.929 56.863C336.636 362.283 299.205 400 256 400c-43.452 0-81.287-38.237-103.335-55.86-11.279-8.967-41.744-33.413-70.927-56.865-5.21-4.187-5.993-11.822-1.745-16.981l15.258-18.528c4.178-5.073 11.657-5.843 16.779-1.726 28.618 23.001 58.566 47.035 70.56 56.571C200.143 320.631 232.307 352 256 352c23.602 0 55.246-30.88 73.41-45.389 11.994-9.535 41.944-33.57 70.563-56.568 5.122-4.116 12.601-3.346 16.778 1.727l15.258 18.526z"></path></svg>                        </span>
+                                                Buka Undangan                    </button>
+                </div>
+                            
+                                
+                            </div>
+        </div>
+        </div>
+        
+        <script>
+            (function($){
+                var $modal = $('#wdk-cover-6c9e5349');
+                if (!$modal.length) {
+                    return;
+                }
+
+                var sampul = $modal.data('sampul');
+                if (sampul) {
+                    $modal.css('background-image', 'url(' + sampul + ')');
+                }
+
+                $('body').css('overflow', 'hidden');
+
+                $modal.find('.wdk-button-wrapper button').off('click.wdkCoverOpen').on('click.wdkCoverOpen', function () {
+                    if ($modal.data('isOpening')) {
+                        return;
+                    }
+                    $modal.data('isOpening', true);
+                    $modal.addClass('removeModals');
+
+                    var duration = parseInt(getComputedStyle($modal[0]).getPropertyValue('--wdk-open-duration'), 10);
+                    if (!duration || duration < 0) {
+                        duration = 650;
+                    }
+
+                    var done = false;
+                    var finishOpen = function () {
+                        if (done) {
+                            return;
+                        }
+                        done = true;
+                        $('body').css('overflow', 'auto');
+                        $modal.remove();
+                    };
+
+                    $modal.one('transitionend.wdkCoverOpen', finishOpen);
+                    window.setTimeout(finishOpen, duration + 120);
+
+                    var songEl = document.getElementById('song');
+                    if (songEl && typeof songEl.play === 'function') {
+                        songEl.play().catch(function(){});
+                    }
+                });
+            })(jQuery);
+        </script>
+
+         
+           
+        <script>
+			// decode &amp; and \'
+			if(jQuery('.namatamu').length  >= 1){
+				let tmpHtmlNamatamu = document.querySelectorAll('.namatamu')
+				tmpHtmlNamatamu.forEach((tamuTexts) => {
+					tamuTexts.innerHTML = cleanIts(tamuTexts.innerHTML); 
+				});
+			}
+			function cleanIts(str){
+
+				return jQuery('<textarea></textarea>').html(str.replace(/\\/g,'')).text();
+			}
+		</script>
+
+        <style type='text/css'>
+            .elementor-button-qr {
+                display: inline-block;
+                line-height: 1;
+                background-color: #818a91;
+                font-size: 15px;
+                padding: 12px 24px;
+                border-radius: 3px;
+                color: #fff;
+                fill: #fff;
+                text-align: center;
+                -webkit-transition: all .3s;
+                -o-transition: all .3s;
+                transition: all .3s;
+            }
+        </style>
+
+        				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2527a8b2" data-id="2527a8b2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<script id="page-scroll-to-id-plugin-script-js-extra">
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":2500,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+//# sourceURL=page-scroll-to-id-plugin-script-js-extra
+</script>
+<script id="page-scroll-to-id-plugin-script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/page-scroll-to-id.min.js"></script>
+<script id="wdk_js_script-js-extra">
+var WDK_WP = {"ajaxurl":"https://hiialfivitation.com/wp-admin/admin-ajax.php","lfNonce":"d8b67fd991","invitationLanguage":"id","jpages":"true","jPagesNum":"10","textCounter":"true","textCounterNum":"300","widthWrap":"","autoLoad":"true","thanksComment":"Thanks for your wishes!","thanksReplyComment":"Thanks for answering the comment!","duplicateComment":"You might have left one of the fields blank, or duplicate comments","accept":"Accept","cancel":"Cancel","reply":"Reply","textWriteComment":"Ucapan","classPopularComment":"wdk-popular-comment","textToDisplay":"Text to display","textCharacteresMin":"2 characters minimum","textNavNext":"Next","textNavPrev":"Previous","textMsgDeleteComment":"Do you want delete this comment?","textLoadMore":"Load more","genericErrorComment":"Terjadi gangguan jaringan. Silakan coba lagi.","insertImage":"Sisipkan gambar","insertVideo":"Sisipkan video","insertLink":"Sisipkan tautan","checkVideo":"Periksa video","textMedia":"Media","textSelectOption":"Pilih opsi.","textCheckVideoUrl":"Silakan periksa URL video.","textInvalidVideoUrl":"URL video tidak valid.","textProcessingFailed":"Proses gagal. Silakan coba lagi.","textUrlLink":"URL tautan","textUrlImage":"URL gambar","textUrlVideo":"URL video","textLikes":"Suka"};
+//# sourceURL=wdk_js_script-js-extra
+</script>
+<script id="wdk_js_script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/script.js"></script>
+<script id="wdk_jPages-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.jPages.min.js"></script>
+<script id="wdk_textCounter-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.textareaCounter.js"></script>
+<script id="wdk_placeholder-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.placeholder.min.js"></script>
+<script id="wdk_autosize-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/autosize.min.js"></script>
+<script id="wdp-swiper-js-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/wdp-swiper.min.js"></script>
+<script id="weddingpress-qr-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/qr-code.js"></script>
+<script id="exad-main-script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/exad-scripts.min.js"></script>
+<script id="qr-code-styling-js" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+<script id="kirimkit-js" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script id="cui_js_script-js-extra">
+var CUI_WP = {"ajaxurl":"https://hiialfivitation.com/wp-admin/admin-ajax.php","cuiNonce":"e12d91926b","jpages":"true","jPagesNum":"10","textCounter":"true","textCounterNum":"500","widthWrap":"","autoLoad":"true","thanksComment":"Thanks for your comment!","thanksReplyComment":"Thanks for answering the comment!","duplicateComment":"You might have left one of the fields blank, or duplicate comments","accept":"Accept","cancel":"Cancel","reply":"Reply","textWriteComment":"Ucapan","classPopularComment":"cui-popular-comment","textToDisplay":"Text to display","textCharacteresMin":"2 characters minimum","textNavNext":"Next","textNavPrev":"Previous","textMsgDeleteComment":"Do you want delete this comment?","textLoadMore":"Load more"};
+//# sourceURL=cui_js_script-js-extra
+</script>
+<script id="cui_js_script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/cui_script.js"></script>
+<script id="cui_jPages-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.jPages.min.js"></script>
+<script id="cui_textCounter-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.textareaCounter.js"></script>
+<script id="cui_placeholder-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/jquery.placeholder.min.js"></script>
+<script id="cui_autosize-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/autosize.min.js"></script>
+<script id="wp-hooks-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/hooks.min.js"></script>
+<script id="wp-i18n-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/i18n.min.js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="react-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/react.min.js"></script>
+<script id="react-dom-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/react-dom.min.js"></script>
+<script id="wp-escape-html-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/escape-html.min.js"></script>
+<script id="wp-element-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/element.min.js"></script>
+<script id="wdp-script-js-extra">
+var _wdpobject = {"ajaxurl":"https://hiialfivitation.com/wp-admin/admin-ajax.php","home_url":"https://hiialfivitation.com","site_url":"https://hiialfivitation.com","site_title":"Hiialfi Invitation","code_nonce":"0ce6e13d00","member_area":"https://akses.weddingpress.net/","nonce_key":"_wdp_nonce","_wdp_nonce":"dff4c6e72f","is_admin":""};
+//# sourceURL=wdp-script-js-extra
+</script>
+<script id="wdp-script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/license.min.js"></script>
+<script id="hello-theme-frontend-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/hello-frontend.js"></script>
+<script id="elementor-webpack-runtime-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/webpack.runtime.min.js"></script>
+<script id="elementor-frontend-modules-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/frontend-modules.min.js"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/core.min.js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Bagikan di Facebook","shareOnTwitter":"Bagikan di Twitter","pinIt":"Buat Pin","download":"Unduh","downloadImage":"Unduh gambar","fullscreen":"Layar Penuh","zoom":"Perbesar","share":"Bagikan","playVideo":"Putar Video","previous":"Sebelumnya","next":"Selanjutnya","close":"Tutup","a11yCarouselPrevSlideMessage":"Slide sebelumnya","a11yCarouselNextSlideMessage":"Slide selanjutnya","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Layar lebar","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_panel_promotions":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/hiialfivitation.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/hiialfivitation.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/hiialfivitation.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"d983556026","atomicFormsSendForm":"12844adad9"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":3460,"title":"The%20Wedding%20of%20muslim%20coksu","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/frontend.min.js"></script>
+<script id="swiper-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/swiper.min.js"></script>
+<script id="elementor-pro-webpack-runtime-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/webpack-pro.runtime.min.js"></script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/hiialfivitation.com\/wp-admin\/admin-ajax.php","nonce":"9c1f68ab86","urls":{"assets":"https:\/\/hiialfivitation.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/hiialfivitation.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"id_ID","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/hiialfivitation.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/frontend.min.js"></script>
+<script id="pro-elements-handlers-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/elements-handlers.min.js"></script>
+<script id="bdt-uikit-js-before">
+window.WDK_BDT_TEXT = {"SVG not found.":"SVG tidak ditemukan.","Icon not found.":"Ikon tidak ditemukan.","Open menu":"Buka menu","Close":"Tutup","Open":"Buka","Back to top":"Kembali ke atas","Next page":"Halaman berikutnya","Previous page":"Halaman sebelumnya","OK":"OK","Cancel":"Batal","Next slide":"Slide berikutnya","Previous slide":"Slide sebelumnya","Slide %s":"Slide %s","%1$s of %2$s":"%1$s dari %2$s","Invalid file type: %s":"Jenis file tidak valid: %s","Invalid file name: %s":"Nama file tidak valid: %s","Invalid file size: maximum %s KB":"Ukuran file tidak valid: maksimum %s KB","Network Error":"Kesalahan Jaringan","Network Timeout":"Waktu Tunggu Jaringan Habis"};
+//# sourceURL=bdt-uikit-js-before
+</script>
+<script id="bdt-uikit-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/bdt-uikit.js"></script>
+<script id="weddingpro-script-js-before">
+window.WDK_COUNTDOWN_TEXT = {"text":"%1$s hari, %2$s jam, %3$s menit, %4$s detik"};
+//# sourceURL=weddingpro-script-js-before
+</script>
+<script id="weddingpro-script-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/script.js"></script>
+<script id="weddingpress-wdp-js-extra">
+var cevar = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.php","plugin_url":"https://hiialfivitation.com/wp-content/plugins/weddingpress/"};
+//# sourceURL=weddingpress-wdp-js-extra
+</script>
+<script id="weddingpress-wdp-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/wdp.min.js"></script>
+<script id="weddingpress-wdp-js-after">
+/*!
+WeddingPress Custom Nama Tamu (WDPCNT) & URL Normalizer
+============================================
+
+Description: 
+WeddingPress Custom Nama Tamu (WDPCNT) adalah script JavaScript yang digunakan untuk mengganti teks "Tamu Undangan" pada elemen dengan class `namatamu` berdasarkan parameter yang ada di URL. 
+Script ini mendukung beberapa parameter seperti `to`, `dear`, dan `kepada` untuk menyesuaikan nama penerima undangan. Serta dilengkapi dengan engine URL Normalizer untuk memperbaiki karakter khusus (&) secara otomatis.
+
+Author: Andy dari WeddingPress
+Website: https://weddingpress.net
+Version: 1.1 (2025/03/01)
+License: Anda diizinkan menggunakan script ini pada website Anda dan proyek klien. Tidak diperbolehkan menjual, membagikan, menempatkan codenya ditemplate yang dijual atau mendistribusikan ulang tanpa izin.
+Copyright: © 2025 WeddingPress. All rights reserved.
+
+Note:
+Pastikan untuk teks 'Tamu Undangan' css classesnya sudah terisi: 'namatamu'
+ */
+(function(){
+	'use strict';
+
+	// =================================================================
+	// KONFIGURASI ⚙️
+	// =================================================================
+	const config = {
+		selector: '.namatamu',
+		urlParams: ['to', 'dear', 'kepada'],
+		defaultText: 'Tamu Undangan'
+	};
+	// =================================================================
+
+	// --- FASE 1: Normalisasi URL sekali jalan ---
+	// Tujuan: Pastikan parameter selalu ter-encode dengan benar di address bar.
+	// Ini mencegah masalah & yang memecah URL menjadi parameter berbeda.
+	var rawSearch = location.search;
+	if ( rawSearch.indexOf('?') !== -1 ) {
+		var params = new URLSearchParams(rawSearch);
+		var needsRedirect = false;
+		
+		for (const key of config.urlParams) {
+		    if (rawSearch.indexOf('?' + key + '=') !== -1 || rawSearch.indexOf('&' + key + '=') !== -1) {
+		        var rawName = params.get(key);
+        		if ( rawName !== null ) {
+        			// Decode dulu semua encoding yang mungkin sudah ada
+        			var decoded = rawName
+        				.replace(/&amp;/gi, '&')
+        				.replace(/&#38;/gi, '&')
+        				.replace(/&#x26;/gi, '&')
+        				.replace(/&apos;/gi, "'")
+        				.replace(/&#39;/gi, "'")
+        				.replace(/&quot;/gi, '"')
+        				.replace(/&#34;/gi, '"');
+        			
+        			if ( rawName !== decoded || rawSearch.indexOf('&' + key + '=') !== -1 ) {
+        				params.set(key, decoded);
+        				needsRedirect = true;
+        			}
+        		}
+		    }
+		}
+
+        if (needsRedirect) {
+            var newSearch = '?' + params.toString();
+			if ( newSearch !== rawSearch ) {
+				location.replace(location.pathname + newSearch);
+				return;
+			}
+        }
+	}
+
+    // --- FASE 2: Tampilkan nama tamu (WDPCNT Core) ---
+    /**
+     * Mengambil nama tamu dari URL.
+     * Dibuat tetap simpel untuk keamanan & keandalan, karena URLSearchParams
+     * sudah menangani semua decoding (+, %20, dll) sesuai standar.
+     */
+    function getRecipientName(params, keys) {
+      for (const key of keys) {
+        const value = params.get(key);
+        if (value && value.trim()) {
+          return value.trim();
+        }
+      }
+      return '';
+    }
+  
+    /**
+     * "Membersihkan" string agar aman digunakan di dalam Regular Expression.
+     * Mencegah error jika placeholder berisi karakter spesial Regex.
+     */
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+    }
+  
+    /**
+     * Fungsi rekursif untuk mencari dan mengganti konten teks
+     * tanpa merusak elemen HTML di sekitarnya.
+     */
+    function replaceTextInNode(node, searchValue, replaceValue) {
+      if (node.nodeType === 1 || node.nodeType === 11) { // Element or Document Fragment
+        node.childNodes.forEach(child => {
+          if (child.nodeType === 3) { // Text node
+            // Gunakan escapeRegExp untuk memastikan searchValue aman.
+            const safeSearchValue = escapeRegExp(searchValue);
+            const regex = new RegExp(safeSearchValue, 'gi');
+            
+            // Tambahkan decoding trick untuk HTML entities sebelum di-replace
+            var txt = document.createElement('textarea');
+            txt.innerHTML = replaceValue;
+            var decodedReplaceValue = txt.value;
+            
+            child.textContent = child.textContent.replace(regex, decodedReplaceValue);
+          } else {
+            replaceTextInNode(child, searchValue, replaceValue);
+          }
+        });
+      }
+    }
+  
+    function wdpDisplayGuestName() {
+      const params = new URLSearchParams(window.location.search);
+      const recipient = getRecipientName(params, config.urlParams);
+      const targets = document.querySelectorAll(config.selector);
+  
+      if (targets.length === 0) return;
+  
+      targets.forEach(element => {
+        if (recipient) {
+          replaceTextInNode(element, config.defaultText, recipient);
+        } else {
+          if (!element.textContent.trim()) {
+            element.textContent = config.defaultText;
+          }
+        }
+      });
+    }
+
+	// Jalankan setelah DOM siap
+	if ( document.readyState === 'loading' ) {
+		document.addEventListener('DOMContentLoaded', wdpDisplayGuestName);
+	} else {
+		wdpDisplayGuestName();
+	}
+
+})();
+//# sourceURL=weddingpress-wdp-js-after
+</script>
+<script id="kirim-kit-js-extra">
+var sendkit_ajax = {"ajax_url":"https://hiialfivitation.com/wp-admin/admin-ajax.php"};
+//# sourceURL=kirim-kit-js-extra
+</script>
+<script id="kirim-kit-js" src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/js/guest-form.js"></script>
+<!-- wp-emoji removed -->
+
+<script>
+/* ================================================
+   SISTEM UNDANGAN PERSONAL (Fredy & Olif) - Ringan & Cepat
+   ================================================ */
+(function () {
+  'use strict';
+
+  function getNamaTamu() {
+    try {
+      var search = window.location.search || '';
+      var hash = window.location.hash || '';
+      var params = new URLSearchParams(search);
+      var raw = params.get('to') || params.get('kepada') || params.get('nama') || params.get('u');
+      
+      if (!raw && hash && hash.length > 1 && hash.indexOf('/') === -1 && hash.indexOf('=') === -1) {
+        raw = hash.substring(1);
+      }
+      
+      if (!raw) return null;
+      
+      var decoded = decodeURIComponent(raw.replace(/\+/g, ' '));
+      return decoded.replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function (word) {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+  }
+
+  var nameInjected = false;
+
+  function injectNama() {
+    var raw = getNamaTamu();
+    if (!raw) return;
+
+    var nama = toTitleCase(raw);
+    if (!nama) return;
+
+    // 1. WeddingKit cover card
+    var wdkTargets = document.querySelectorAll('.wdk-name, .namatamu, .wdk-name.namatamu');
+    wdkTargets.forEach(function (el) {
+      if (el.textContent !== nama) {
+        el.textContent = nama;
+      }
+      el.style.display = 'block';
+      el.style.visibility = 'visible';
+    });
+
+    // Cari elemen tepat setelah .wdk-dear
+    document.querySelectorAll('.wdk-dear').forEach(function(el) {
+      var next = el.nextElementSibling;
+      if (next && next.textContent !== nama) {
+        next.textContent = nama;
+        next.style.display = 'block';
+        next.style.visibility = 'visible';
+      }
+    });
+
+    // 2. Elementor heading
+    document.querySelectorAll('.elementor-heading-title').forEach(function (el) {
+      if (el.textContent.trim() === 'Tamu Undangan') {
+        el.textContent = nama;
+      }
+    });
+
+    // 3. Tab title
+    if (!nameInjected) {
+      document.title = 'Undangan untuk ' + nama + ' | Fredy & Olif';
+      nameInjected = true;
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectNama);
+  } else {
+    injectNama();
+  }
+
+  setTimeout(injectNama, 100);
+  setTimeout(injectNama, 400);
+  setTimeout(injectNama, 1000);
+  setTimeout(injectNama, 2000);
+})();
+</script>
+
+<script>
+/* ================================================================
+   DOA & UCAPAN — Google Apps Script Backend
+   ⚠️  GANTI URL DI BAWAH dengan URL deployment Apps Script kamu
+   ================================================================ */
+(function () {
+  'use strict';
+
+  var GAS_URL = 'https://script.google.com/macros/s/AKfycbz12y1CPLvf7z918LdNiMKhRw7WXnLaccIk22Gpc98_MZag6ymn4w3oVB2z6nE43L30/exec';
+
+  function formatTanggal(isoStr) {
+    try {
+      var d = new Date(isoStr);
+      var bulan = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agt','Sep','Okt','Nov','Des'];
+      return d.getDate() + ' ' + bulan[d.getMonth()] + ' ' + d.getFullYear() +
+             ' ' + ('0'+d.getHours()).slice(-2) + ':' + ('0'+d.getMinutes()).slice(-2);
+    } catch (e) { return ''; }
+  }
+
+  function inisial(nama) { return (nama || 'T').charAt(0).toUpperCase(); }
+
+  function renderKomentar(c) {
+    var kk    = (c.konfirmasi_key || '').toLowerCase();
+    var label = c.konfirmasi || '';
+    var badge = kk ? (
+      '<span class="wdk-post-author-mark wdk-post-author-' + kk + '" style="display:inline-flex;align-items:center;gap:3px;font-size:12px;">' +
+      '<svg style="width:14px;height:14px;fill:currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>' +
+      label + '</span>'
+    ) : '';
+
+    return [
+      '<li class="cui-item-comment" style="list-style:none;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.06);">',
+        '<div class="cui-comment-avatar" style="float:left;">',
+          '<div style="width:32px;height:32px;border-radius:50%;background:#c9a96e;color:#fff;',
+               'display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;">',
+            inisial(c.nama),
+          '</div>',
+        '</div>',
+        '<div class="cui-comment-content" style="margin-left:42px;">',
+          '<div>',
+            '<span class="cui-post-author" style="font-weight:bold;padding:2px 8px;border-radius:12px;font-size:12px;display:inline-block;margin-right:6px;">',
+              (c.nama || 'Tamu'),
+            '</span>', badge,
+          '</div>',
+          '<div class="cui-comment-text" style="font-size:13px;margin-top:4px;line-height:1.5;">', (c.ucapan || ''), '</div>',
+          '<div style="font-size:11px;color:#aaa;margin-top:4px;">', formatTanggal(c.timestamp), '</div>',
+        '</div>',
+        '<div style="clear:both"></div>',
+      '</li>'
+    ].join('');
+  }
+
+  function updateCounter(key, val) {
+    ['cui_card-', 'wdk_card-'].forEach(function(prefix) {
+      document.querySelectorAll('.' + prefix + key + ' span:first-child').forEach(function(el) {
+        el.textContent = val;
+      });
+    });
+  }
+
+  function muatKomentar() {
+    if (!GAS_URL || GAS_URL.indexOf('GANTI') > -1) return;
+    fetch(GAS_URL)
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (!data.success) return;
+        var total  = data.total || 0;
+        var linkEl = document.getElementById('cui-link-3460');
+        if (linkEl) linkEl.innerHTML = '<span>' + total + '</span> Ucapan';
+        var c = data.counts || {};
+        updateCounter('hadir',       c.hadir       || 0);
+        updateCounter('tidak_hadir', c.tidak_hadir || 0);
+        updateCounter('masih_ragu',  c.masih_ragu  || 0);
+        var ul = document.getElementById('cui-container-comment-3460');
+        if (!ul) return;
+        if (!data.comments || data.comments.length === 0) {
+          ul.innerHTML = '<li style="list-style:none;text-align:center;color:#aaa;padding:24px 0;">Belum ada ucapan. Jadilah yang pertama!</li>';
+        } else {
+          ul.innerHTML = data.comments.map(renderKomentar).join('');
+        }
+        var panel = document.getElementById('cui-wrap-commnent-3460');
+        if (panel) panel.style.display = 'block';
+      })
+      .catch(function (err) { console.warn('[GuestBook] Load error:', err); });
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    var form      = document.getElementById('commentform-3460');
+    if (!form) return;
+    var nama      = (form.querySelector('[name="author"]')    || {value:''}).value.trim();
+    var ucapan    = (form.querySelector('[name="comment"]')   || form.querySelector('textarea') || {value:''}).value.trim();
+    var konfirmasi = (form.querySelector('[name="konfirmasi"]') || {value:''}).value;
+    var elBtn     = form.querySelector('[type="submit"]');
+    if (!nama)             { alert('Mohon isi nama Anda.'); return; }
+    if (ucapan.length < 2) { alert('Ucapan minimal 2 karakter.'); return; }
+    if (elBtn) { elBtn.disabled = true; elBtn.value = 'Mengirim...'; }
+    var statusEl = document.getElementById('cui-comment-status-3460');
+    if (!GAS_URL || GAS_URL.indexOf('GANTI') > -1) {
+      alert('URL Apps Script belum diisi di template.');
+      if (elBtn) { elBtn.disabled = false; elBtn.value = 'Kirim'; }
+      return;
+    }
+    fetch(GAS_URL, {
+      method  : 'POST',
+      body    : JSON.stringify({ nama: nama, ucapan: ucapan, konfirmasi: konfirmasi }),
+      headers : { 'Content-Type': 'text/plain' }
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data.success) {
+        form.reset();
+        if (statusEl) {
+          statusEl.innerHTML = '<p style="text-align:center;color:#3D9A62;padding:10px;font-size:14px;">&#10003; ' + (data.message || 'Ucapan tersimpan!') + '</p>';
+          setTimeout(function () { statusEl.innerHTML = ''; }, 5000);
+        }
+        muatKomentar();
+      } else {
+        alert('Gagal: ' + (data.message || 'Coba lagi.'));
+      }
+    })
+    .catch(function (err) { alert('Koneksi gagal. Coba lagi.'); })
+    .finally(function () { if (elBtn) { elBtn.disabled = false; elBtn.value = 'Kirim'; } });
+  }
+
+  function init() {
+    if (window.CUI_WP) window.CUI_WP.ajaxurl = GAS_URL;
+    if (window.WDK_WP) window.WDK_WP.ajaxurl = GAS_URL;
+    if (window.cevar)  window.cevar.ajax_url  = GAS_URL;
+    var form = document.getElementById('commentform-3460');
+    if (form) form.addEventListener('submit', handleSubmit, true);
+    muatKomentar();
+    var panel = document.getElementById('cui-wrap-commnent-3460');
+    if (panel) panel.style.display = 'block';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+  setTimeout(init, 800);
+  setTimeout(muatKomentar, 2000);
+})();
+</script>
+	
+<script>
+/* Countdown Timer Otomatis Stabil (2 Digit Tanpa Kedip) */
+(function() {
+    function initCountdown() {
+        var target = new Date("September 28, 2026 10:00:00").getTime();
+        
+        var elDays = document.querySelector('[data-days]');
+        var elHours = document.querySelector('[data-hours]');
+        var elMinutes = document.querySelector('[data-minutes]');
+        var elSeconds = document.querySelector('[data-seconds]');
+        
+        function pad2(num) {
+            var s = String(num);
+            while (s.length < 2) s = "0" + s;
+            return s;
+        }
+
+        function tick() {
+            var now = new Date().getTime();
+            var diff = target - now;
+            if (diff < 0) diff = 0;
+
+            var d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            var h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            var s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            if (elDays) elDays.innerText = pad2(d);
+            if (elHours) elHours.innerText = pad2(h);
+            if (elMinutes) elMinutes.innerText = pad2(m);
+            if (elSeconds) elSeconds.innerText = pad2(s);
+        }
+
+        tick();
+        setInterval(tick, 1000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initCountdown);
+    } else {
+        initCountdown();
+    }
+})();
+</script>
+
+</body>
+</html>
