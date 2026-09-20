@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Undangan Pernikahan — Fredy & Olif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #9b784a;
+      --primary-dark: #7a5c32;
+      --primary-light: #f6efe6;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --success: #16a34a;
+      --wa-color: #25D366;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    .header p {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input[type="text"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 15px;
+      color: var(--text);
+      transition: all 0.2s;
+      outline: none;
+      background: #fafafa;
+    }
+
+    input:focus, textarea:focus {
+      border-color: var(--primary);
+      background: #fff;
+      box-shadow: 0 0 0 3px rgba(155, 120, 74, 0.15);
+    }
+
+    .helper-text {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 5px;
+    }
+
+    .badge-panggilan {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+
+    .badge-btn {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border: 1px solid rgba(155, 120, 74, 0.2);
+      border-radius: 20px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .badge-btn:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .result-section {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 20px;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .result-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .url-box {
+      background: #f1f5f9;
+      padding: 12px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 13px;
+      color: #0f172a;
+      word-break: break-all;
+      border: 1px solid #cbd5e1;
+      margin-bottom: 14px;
+    }
+
+    .preview-box {
+      background: #f8fafc;
+      padding: 14px;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary);
+      font-size: 13px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      color: #334155;
+      margin-bottom: 16px;
+    }
+
+    .btn-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .btn-group {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-copy-url {
+      background: #e2e8f0;
+      color: var(--text);
+    }
+    .btn-copy-url:hover {
+      background: #cbd5e1;
+    }
+
+    .btn-copy-all {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-copy-all:hover {
+      background: var(--primary-dark);
+    }
+
+    .btn-wa {
+      background: var(--wa-color);
+      color: white;
+      grid-column: 1 / -1;
+      margin-top: 4px;
+    }
+    .btn-wa:hover {
+      background: #1ebc59;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #0f172a;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 500;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      opacity: 0;
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    .bulk-toggle {
+      text-align: center;
+      margin-top: 14px;
+    }
+    .bulk-toggle a {
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .bulk-toggle a:hover {
+      text-decoration: underline;
+    }
+
+    #bulkSection {
+      display: none;
+      margin-top: 16px;
+      border-top: 1px dashed var(--border);
+      padding-top: 16px;
+    }
+
+    .bulk-list {
+      max-height: 250px;
+      overflow-y: auto;
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .bulk-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9;
+      font-size: 13px;
+    }
+    .bulk-item:last-child {
+      border-bottom: none;
+    }
+    .bulk-item button {
+      padding: 5px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      border: none;
+      background: var(--primary);
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Fredy & Olif</h1>
+    <p>Pembuat Link Undangan & Teks WhatsApp Sekali Klik</p>
+  </div>
+
+  <div class="card">
+    <div class="form-group">
+      <label for="baseUrl">Alamat Website Undangan</label>
+      <input type="url" id="baseUrl" value="https://olifsddyygg.blogspot.com/" placeholder="https://olifsddyygg.blogspot.com/">
+      <div class="helper-text">Alamat website Blogspot undangan Anda</div>
+    </div>
+
+    <div class="form-group">
+      <label for="guestName">Nama Tamu Undangan</label>
+      <input type="text" id="guestName" placeholder="Ketik nama tamu di sini... contoh: Budi Santoso" autofocus>
+      <div class="badge-panggilan">
+        <span class="badge-btn" onclick="addPrefix('Bapak ')">+ Bapak</span>
+        <span class="badge-btn" onclick="addPrefix('Ibu ')">+ Ibu</span>
+        <span class="badge-btn" onclick="addPrefix('Keluarga ')">+ Keluarga</span>
+        <span class="badge-btn" onclick="addPrefix('Sahabat ')">+ Sahabat</span>
+        <span class="badge-btn" onclick="addSuffix(' & Keluarga')">+ & Keluarga</span>
+        <span class="badge-btn" onclick="addSuffix(' & Partner')">+ & Partner</span>
+      </div>
+    </div>
+
+    <!-- HASIL GENERATE -->
+    <div class="result-section">
+      <div class="result-header">
+        <span class="result-title">🔗 Link Khusus Tamu</span>
+      </div>
+      <div class="url-box" id="resultUrl">https://olifsddyygg.blogspot.com/?to=Tamu-Undangan</div>
+
+      <div class="result-header">
+        <span class="result-title">💬 Teks Pesan WhatsApp Siap Kirim</span>
+      </div>
+      <div class="preview-box" id="resultText"></div>
+
+      <div class="btn-group">
+        <button class="btn btn-copy-url" onclick="copyOnlyUrl()">
+          📋 Salin Link Saja
+        </button>
+        <button class="btn btn-copy-all" onclick="copyFullMessage()">
+          📋 Salin Pesan Lengkap
+        </button>
+        <button class="btn btn-wa" onclick="shareToWhatsApp()">
+          📲 Kirim / Buka di WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <!-- FITUR INPUT BANYAK NAMA -->
+    <div class="bulk-toggle">
+      <a onclick="toggleBulk()">⚡ Mau buat link untuk banyak tamu sekaligus? Klik di sini</a>
+    </div>
+
+    <div id="bulkSection">
+      <label for="bulkNames">Masukkan Daftar Nama (1 Baris = 1 Nama)</label>
+      <textarea id="bulkNames" rows="4" placeholder="Jono Subarjo&#10;Budi Santoso & Partner&#10;Keluarga H. Ahmad"></textarea>
+      <button class="btn btn-copy-all" style="width: 100%; margin-top: 8px;" onclick="generateBulk()">Buat Semua Link Sekaligus</button>
+      <div id="bulkResultList" class="bulk-list" style="display: none;"></div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast">Berhasil disalin!</div>
+
+<script>
+  const baseUrlInput = document.getElementById('baseUrl');
+  const guestNameInput = document.getElementById('guestName');
+  const resultUrlEl = document.getElementById('resultUrl');
+  const resultTextEl = document.getElementById('resultText');
+  const toastEl = document.getElementById('toast');
+
+  function updatePreview() {
+    let base = baseUrlInput.value.trim();
+    if (!base.endsWith('/')) base += '/';
+    
+    let rawName = guestNameInput.value.trim();
+    let displayName = rawName || 'Tamu Undangan';
+    
+    // Format nama untuk URL parameter
+    let urlParam = encodeURIComponent(displayName.replace(/\s+/g, '-'));
+    let fullUrl = base + '?to=' + urlParam;
+    
+    resultUrlEl.textContent = fullUrl;
+
+    // Teks undangan WhatsApp siap kirim
+    let message = `Kepada Yth.
+Bpk/Ibu/Saudara/i: *${displayName}*
+
+_Assalamu’alaikum Warahmatullahi Wabarakatuh_
+
+Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:
+
+*Fredy Bastian Nugroho*
+&
+*Siti Mukholifah (Olif)*
+
+📅 *Waktu Acara:*
+Senin, 28 September 2026
+Pukul 08.00 WIB - Selesai
+
+📍 *Lokasi Acara:*
+Kediaman Mempelai Wanita (Bpk. Paiman)
+Ds. Stren, Kec. Ngasem, Kab. Bojonegoro
+
+Untuk informasi lengkap serta konfirmasi kehadiran, silakan buka tautan undangan digital kami berikut:
+${fullUrl}
+
+Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+
+Terima kasih.
+_Wassalamu’alaikum Warahmatullahi Wabarakatuh_
+
+Kami yang berbahagia,
+*Fredy & Olif*`;
+
+    resultTextEl.textContent = message;
+    return { fullUrl, message, displayName };
+  }
+
+  // Event Listeners
+  guestNameInput.addEventListener('input', updatePreview);
+  baseUrlInput.addEventListener('input', updatePreview);
+
+  function addPrefix(prefix) {
+    if (!guestNameInput.value.startsWith(prefix)) {
+      guestNameInput.value = prefix + guestNameInput.value;
+      updatePreview();
+    }
+  }
+
+  function addSuffix(suffix) {
+    if (!guestNameInput.value.endsWith(suffix)) {
+      guestNameInput.value = guestNameInput.value + suffix;
+      updatePreview();
+    }
+  }
+
+  function showToast(text) {
+    toastEl.textContent = text;
+    toastEl.classList.add('show');
+    setTimeout(() => {
+      toastEl.classList.remove('show');
+    }, 2200);
+  }
+
+  function copyOnlyUrl() {
+    const { fullUrl } = updatePreview();
+    navigator.clipboard.writeText(fullUrl).then(() => {
+      showToast('✓ Link undangan berhasil disalin!');
+    });
+  }
+
+  function copyFullMessage() {
+    const { message } = updatePreview();
+    navigator.clipboard.writeText(message).then(() => {
+      showToast('✓ Pesan WhatsApp lengkap berhasil disalin!');
+    });
+  }
+
+  function shareToWhatsApp() {
+    const { message } = updatePreview();
+    let waUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(message);
+    window.open(waUrl, '_blank');
+  }
+
+  // Fitur Bulk
+  function toggleBulk() {
+    const sec = document.getElementById('bulkSection');
+    sec.style.display = sec.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function generateBulk() {
+    let base = baseUrlInput.value.trim();
+    if (!base.endsWith('/')) base += '/';
+    
+    let text = document.getElementById('bulkNames').value;
+    let lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+    
+    const listEl = document.getElementById('bulkResultList');
+    listEl.innerHTML = '';
+    
+    if (lines.length === 0) {
+      alert('Tuliskan minimal 1 nama tamu.');
+      return;
+    }
+
+    lines.forEach(name => {
+      let urlParam = encodeURIComponent(name.replace(/\s+/g, '-'));
+      let url = base + '?to=' + urlParam;
+      
+      let item = document.createElement('div');
+      item.className = 'bulk-item';
+      item.innerHTML = `
+        <div>
+          <strong>${name}</strong><br>
+          <small style="color:#64748b;">${url}</small>
+        </div>
+        <button onclick="copySingleBulk('${url}')">Salin</button>
+      `;
+      listEl.appendChild(item);
+    });
+
+    listEl.style.display = 'block';
+    showToast(`Berhasil membuat ${lines.length} link tamu!`);
+  }
+
+  function copySingleBulk(url) {
+    navigator.clipboard.writeText(url).then(() => {
+      showToast('✓ Link disalin!');
+    });
+  }
+
+  updatePreview();
+</script>
+
+</body>
+</html>
