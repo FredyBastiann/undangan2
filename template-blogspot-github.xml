@@ -784,21 +784,22 @@ Ds. Dukohkidul RT 01/RW 01, Kec. Ngasem, Kab. Bojonegoro</p>				</div>
 
 		<script>
 		function copyText(el) {
-		    var content = jQuery(el).siblings('div.copy-content').html()
-		    var temp = jQuery("<textarea>");
-		    jQuery("body").append(temp);
-		    temp.val(content.replace(/<br ?\/?>/g, "\n")).select();
-		    document.execCommand("copy");
-		    temp.remove();
-		    var text = jQuery(el).html()
-		    jQuery(el).html(jQuery(el).data('message'))
-		    var counter = 0;
-		    var interval = setInterval(function() {
-		        counter++;
-		        if (counter == 1) {
-		            jQuery(el).html(text)
-		        }
-		    }, 500);
+		    var raw = jQuery(el).siblings('div.copy-content').text();
+		    var cleanNoRek = raw.replace(/\s+/g, '').trim();
+		    if (navigator.clipboard && window.isSecureContext) {
+		        navigator.clipboard.writeText(cleanNoRek);
+		    } else {
+		        var temp = jQuery("<textarea>");
+		        jQuery("body").append(temp);
+		        temp.val(cleanNoRek).select();
+		        document.execCommand("copy");
+		        temp.remove();
+		    }
+		    var text = jQuery(el).html();
+		    jQuery(el).html(jQuery(el).data('message'));
+		    setTimeout(function() {
+		        jQuery(el).html(text);
+		    }, 1500);
 		}
 
 		</script>
