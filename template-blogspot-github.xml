@@ -1025,9 +1025,10 @@ Ds. Stren, Kec. Ngasem, Kab. Bojonegoro</p>				</div>
 
 				
 
-				<audio id="song" loop>
-			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/Wedding-Nasheed-Muhammad-Al-Muqit-_-Lyrics-Arabic-Terjemahan-_-𝘈𝘳𝘢𝘣𝘪𝘤-𝘕𝘢𝘴𝘩𝘦𝘦𝘥-_-محمد-المقيط-8bWRU2ipOwA.mp3"
-			type="audio/mp3">
+				<audio id="song" loop preload="auto">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.mp3" type="audio/mpeg">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.m4a" type="audio/mp4">
+			<source src="https://cdn.jsdelivr.net/gh/FredyBastiann/undangan2@main/downloaded-assets/images/lagu.webm" type="audio/webm">
 		</audio>  
 			
 
